@@ -1,0 +1,13 @@
+
+run.bat
+
+secret.php
+
+/vendor
+/_globals
+/users
+/guilds
+/media
+/tools
+/temp
+Palace/palace_connect.php

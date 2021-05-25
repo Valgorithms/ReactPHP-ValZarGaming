@@ -16,8 +16,10 @@ class ValZarGaming
 	public $discord;
 	public $twitch;
 	
+	protected $verbose = true;
+	
 	public function __construct(array $options = [])
-    {		
+    {
 		$options = $this->resolveOptions($options);
 		
 		$this->loop = $options['loop'];
@@ -39,6 +41,7 @@ class ValZarGaming
 	*/
 	protected function resolveOptions(array $options = []): array
 	{
+		if ($this->verbose) $this->emit('[VALZARGAMING] [RESOLVE OPTIONS]');
 		$options['loop'] = $options['loop'] ?? Factory::create();
 		$options['browser'] = $options['browser'] ?? new \React\Http\Browser($options['loop']);
 		//Discord must be Discord or null
@@ -53,6 +56,7 @@ class ValZarGaming
 	
 	public function run(): void
 	{
+		if ($this->verbose) $this->emit('[VALZARGAMING] [RUN]');
 		if(!(isset($this->discord))) $this->emit('[WARNING] Discord not set!');
 		else $this->discord->run();
 		if(!(isset($this->twitch))) $this->emit('[WARNING] Twitch not set!');

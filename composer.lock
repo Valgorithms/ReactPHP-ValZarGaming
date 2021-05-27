@@ -655,16 +655,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.48.0",
+            "version": "2.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147"
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d3c447f21072766cddec3522f9468a5849a76147",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8d1f50f1436fb4b05e7127360483dd9c6e73da16",
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16",
                 "shasum": ""
             },
             "require": {
@@ -744,7 +744,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-07T10:08:30+00:00"
+            "time": "2021-05-26T22:08:38+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2509,12 +2509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "2bf2e4ce97e9e81228f0ceda2f5fac1eedb67188"
+                "reference": "46b6de8d7aa6c3e064952a06474cf2048e8286cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/2bf2e4ce97e9e81228f0ceda2f5fac1eedb67188",
-                "reference": "2bf2e4ce97e9e81228f0ceda2f5fac1eedb67188",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/46b6de8d7aa6c3e064952a06474cf2048e8286cb",
+                "reference": "46b6de8d7aa6c3e064952a06474cf2048e8286cb",
                 "shasum": ""
             },
             "require": {
@@ -2570,7 +2570,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-05-20T06:32:44+00:00"
+            "time": "2021-05-26T23:42:41+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -2859,12 +2859,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "d6989de7c2eabdd2bd10edd616095899e33b7571"
+                "reference": "6884bafe83608aff152a763ab85c14079dbc326f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/d6989de7c2eabdd2bd10edd616095899e33b7571",
-                "reference": "d6989de7c2eabdd2bd10edd616095899e33b7571",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/6884bafe83608aff152a763ab85c14079dbc326f",
+                "reference": "6884bafe83608aff152a763ab85c14079dbc326f",
                 "shasum": ""
             },
             "require": {
@@ -2897,7 +2897,7 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2021-05-24T05:22:39+00:00"
+            "time": "2021-05-27T05:47:37+00:00"
         },
         {
             "name": "wyrihaximus/cpu-core-detector",

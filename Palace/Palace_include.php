@@ -263,13 +263,13 @@ $webapi->on('error', function ($e) {
 	echo('[webapi] ' . $e->getMessage());
 });
 
-$rescue = VarLoad("_globals", "RESCUE.php"); //Check if recovering from a fatal crash
+$rescue = VarLoad(getcwd() . '/_globals', "RESCUE.php"); //Check if recovering from a fatal crash
 if ($rescue) { //Attempt to restore crashed session
     echo "[RESCUE START]" . PHP_EOL;
     $rescue_dir = getcwd() . '/_globals';
     $rescue_vars = scandir($rescue_dir);
     foreach ($rescue_vars as $var) {
-        $backup_var = VarLoad("_globals", "$var");
+        $backup_var = VarLoad(getcwd() . '/_globals', "$var");
                 
         $filter = ".php";
         $value = str_replace($filter, "", $var);
@@ -279,7 +279,7 @@ if ($rescue) { //Attempt to restore crashed session
         echo $target_dir . PHP_EOL;
         unlink($target_dir);
     }
-    VarSave("_globals", "rescue.php", false);
+    VarSave(getcwd() . '/_globals', "rescue.php", false);
     echo "[RESCUE DONE]" . PHP_EOL;
 }
 $dt = new DateTime("now"); // convert UNIX timestamp to PHP DateTime
@@ -508,7 +508,7 @@ try {
         $temp = array($value);
         if (!in_array($key, $blacklist_globals)) {
             try {
-                VarSave("_globals", "$key.php", $value);
+                VarSave(getcwd() . '/_globals', "$key.php", $value);
             } catch (Throwable $e) { //This will probably crash the bot
                 echo "$key, ";
             }

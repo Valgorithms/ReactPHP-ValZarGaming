@@ -1,7 +1,8 @@
 {
 	"require": {
         "php": "^8.0.0",
-		"vzgcoders/palace": "dev-master"
+		"vzgcoders/palace": "dev-master",
+		"discord-php/slash": "^1.0"
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true

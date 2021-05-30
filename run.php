@@ -31,6 +31,7 @@ $discord_options = array(
 $discord = new Discord\Discord($discord_options);
 $browser = new \React\Http\Browser($discord->getLoop()/*, $connector*/);
 include __DIR__ . '/vendor/vzgcoders/palace/stats_object.php';
+include __DIR__ . '/vendor/vzgcoders/palace/slash.php';
 $stats = new Stats();
 $stats->init($discord);
 

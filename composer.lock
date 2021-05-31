@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "cakephp/core",
-            "version": "3.9.9",
+            "version": "3.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
@@ -64,7 +64,7 @@
         },
         {
             "name": "cakephp/utility",
-            "version": "3.9.9",
+            "version": "3.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
@@ -3271,12 +3271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "3ebabeb088e1d167a624ab7eca18a4495b01a977"
+                "reference": "7e8d20a559ee9ea2d8d25d5e381896f8492fac2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/3ebabeb088e1d167a624ab7eca18a4495b01a977",
-                "reference": "3ebabeb088e1d167a624ab7eca18a4495b01a977",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/7e8d20a559ee9ea2d8d25d5e381896f8492fac2d",
+                "reference": "7e8d20a559ee9ea2d8d25d5e381896f8492fac2d",
                 "shasum": ""
             },
             "require": {
@@ -3305,7 +3305,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-05-30T21:22:49+00:00"
+            "time": "2021-05-31T02:58:55+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

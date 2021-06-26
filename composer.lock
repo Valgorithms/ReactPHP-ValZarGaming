@@ -171,25 +171,26 @@
         },
         {
             "name": "discord-php/slash",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Slash.git",
-                "reference": "c14949962b36c866f92ecc5fb2fe0bf857563e6a"
+                "reference": "9c0ee3a7db8d429e8b68edca9cb2fd8335309df3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/c14949962b36c866f92ecc5fb2fe0bf857563e6a",
-                "reference": "c14949962b36c866f92ecc5fb2fe0bf857563e6a",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/9c0ee3a7db8d429e8b68edca9cb2fd8335309df3",
+                "reference": "9c0ee3a7db8d429e8b68edca9cb2fd8335309df3",
                 "shasum": ""
             },
             "require": {
                 "discord-php/http": "^8",
-                "discord/interactions": "1.0.6",
+                "discord/interactions": "^1",
                 "guzzlehttp/guzzle": "^7.2",
                 "monolog/monolog": "^2.2",
                 "php": ">=7.3|>=8.0",
                 "react/http": "^1.2",
+                "simplito/elliptic-php": "^1",
                 "symfony/options-resolver": "^5.2"
             },
             "require-dev": {
@@ -220,22 +221,22 @@
             "description": "HTTP server for Discord slash commands",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Slash/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Slash/tree/v1.0.3"
+                "source": "https://github.com/discord-php/DiscordPHP-Slash/tree/v1.0.4"
             },
-            "time": "2021-05-08T23:54:20+00:00"
+            "time": "2021-06-23T06:26:07+00:00"
         },
         {
             "name": "discord/interactions",
-            "version": "1.0.6",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord/discord-interactions-php.git",
-                "reference": "113a9c66b73fc05612a4c759d11db3ef6f12b6f8"
+                "reference": "d0ea3349a592dd359950a8d23ccfeed8353ccedf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord/discord-interactions-php/zipball/113a9c66b73fc05612a4c759d11db3ef6f12b6f8",
-                "reference": "113a9c66b73fc05612a4c759d11db3ef6f12b6f8",
+                "url": "https://api.github.com/repos/discord/discord-interactions-php/zipball/d0ea3349a592dd359950a8d23ccfeed8353ccedf",
+                "reference": "d0ea3349a592dd359950a8d23ccfeed8353ccedf",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +264,9 @@
             ],
             "support": {
                 "issues": "https://github.com/discord/discord-interactions-php/issues",
-                "source": "https://github.com/discord/discord-interactions-php/tree/1.0.6"
+                "source": "https://github.com/discord/discord-interactions-php/tree/1.0.8"
             },
-            "time": "2020-12-14T21:21:43+00:00"
+            "time": "2021-05-30T23:53:41+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1577,16 +1578,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v1.5.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "b22b0b20278e8535e633ab71a52472c5bf620aa1"
+                "reference": "a45784faebf8fbd59058fad2d8497f71a787d20c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/b22b0b20278e8535e633ab71a52472c5bf620aa1",
-                "reference": "b22b0b20278e8535e633ab71a52472c5bf620aa1",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/a45784faebf8fbd59058fad2d8497f71a787d20c",
+                "reference": "a45784faebf8fbd59058fad2d8497f71a787d20c",
                 "shasum": ""
             },
             "require": {
@@ -1641,7 +1642,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/dns/issues",
-                "source": "https://github.com/reactphp/dns/tree/v1.5.0"
+                "source": "https://github.com/reactphp/dns/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -1653,7 +1654,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-05T12:16:50+00:00"
+            "time": "2021-06-25T10:54:13+00:00"
         },
         {
             "name": "react/event-loop",
@@ -2069,22 +2070,22 @@
         },
         {
             "name": "react/socket",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a"
+                "reference": "5d39e3fa56ea7cc443c86f2788a40867cdba1659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
-                "reference": "e2b96b23a13ca9b41ab343268dbce3f8ef4d524a",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/5d39e3fa56ea7cc443c86f2788a40867cdba1659",
+                "reference": "5d39e3fa56ea7cc443c86f2788a40867cdba1659",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3.0",
-                "react/dns": "^1.1",
+                "react/dns": "^1.7",
                 "react/event-loop": "^1.0 || ^0.5",
                 "react/promise": "^2.6.0 || ^1.2.1",
                 "react/promise-timer": "^1.4.0",
@@ -2137,7 +2138,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v1.6.0"
+                "source": "https://github.com/reactphp/socket/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -2149,7 +2150,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-28T12:49:05+00:00"
+            "time": "2021-06-25T11:05:10+00:00"
         },
         {
             "name": "react/stream",
@@ -2965,12 +2966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "e2468f23ce99b5323fab933c40991ae9089f50dd"
+                "reference": "88f3d421cc61350e61380ee200a78df30681381d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/e2468f23ce99b5323fab933c40991ae9089f50dd",
-                "reference": "e2468f23ce99b5323fab933c40991ae9089f50dd",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/88f3d421cc61350e61380ee200a78df30681381d",
+                "reference": "88f3d421cc61350e61380ee200a78df30681381d",
                 "shasum": ""
             },
             "require": {
@@ -3026,7 +3027,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-06-14T07:17:04+00:00"
+            "time": "2021-06-25T10:16:07+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3273,12 +3274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "e23219247dedd7ccdfabe037c50865733997487c"
+                "reference": "8398c93ddcfa21302e9c2e6aee460a949969680e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/e23219247dedd7ccdfabe037c50865733997487c",
-                "reference": "e23219247dedd7ccdfabe037c50865733997487c",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/8398c93ddcfa21302e9c2e6aee460a949969680e",
+                "reference": "8398c93ddcfa21302e9c2e6aee460a949969680e",
                 "shasum": ""
             },
             "require": {
@@ -3307,7 +3308,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-06-08T03:58:17+00:00"
+            "time": "2021-06-26T03:30:31+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3315,12 +3316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "e26ce5aa95ab95ab859ce662b2a65e308c5f7db5"
+                "reference": "c345122a7cbda50ab36b17388afb63cb1834b60c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/e26ce5aa95ab95ab859ce662b2a65e308c5f7db5",
-                "reference": "e26ce5aa95ab95ab859ce662b2a65e308c5f7db5",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/c345122a7cbda50ab36b17388afb63cb1834b60c",
+                "reference": "c345122a7cbda50ab36b17388afb63cb1834b60c",
                 "shasum": ""
             },
             "require": {
@@ -3353,7 +3354,7 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2021-05-30T03:59:42+00:00"
+            "time": "2021-06-26T03:26:41+00:00"
         },
         {
             "name": "wyrihaximus/composer-update-bin-autoload-path",

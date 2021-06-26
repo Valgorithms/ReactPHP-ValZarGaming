@@ -65,13 +65,13 @@ $twitch_options = array(
 	'whitelist' => [ // Users who are allowed to use restricted functions
 		'valzargaming',
 		'daathren',
-		'z3tadragon',
 	],
 	'social' => [ //NYI
 		'twitter' => 'https://twitter.com/daathren',
-		'instagram' => 'https://www.instagram.com/daathren/',
+		'instagram' => 'https://www.instagram.com/daathren',
 		'discord' => 'https://discord.gg/CpVbC78XWT',
-		'tumblr' => 'https://daathren.tumblr.com/',
+		'tumblr' => 'https://daathren.tumblr.com',
+		'youtube' => 'https://www.youtube.com/daathren',
 	],
 	'tip' => [ //NYI
 		'paypal' => 'https://www.paypal.com/paypalme/daathren',
@@ -112,7 +112,7 @@ $twitch_options = array(
 	*/
 );
 // Responses that reference other values in options should be declared afterwards
-$twitch_options['responses']['social'] = 'Come follow the magick through several dimensions:  Twitter - '.$twitch_options['social']['twitter'].' |  Instagram - '.$twitch_options['social']['instagram'].' |  Discord - '.$twitch_options['social']['discord'].' |  Tumblr - '.$twitch_options['social']['tumblr'];
+$twitch_options['responses']['social'] = 'Come follow the magick through several dimensions:  Twitter - '.$twitch_options['social']['twitter'].' |  Instagram - '.$twitch_options['social']['instagram'].' |  Discord - '.$twitch_options['social']['discord'].' |  Tumblr - '.$twitch_options['social']['tumblr'].' |  YouTube - '.$options['social']['youtube'];
 $twitch_options['responses']['tip'] = 'Wanna help fund the magick?  PayPal - '.$twitch_options['tip']['paypal'].' |  CashApp - '.$twitch_options['tip']['cashapp'];
 $twitch_options['responses']['discord'] = $twitch_options['social']['discord'];
 $twitch = new Twitch\Twitch($twitch_options);

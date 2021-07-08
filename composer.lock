@@ -124,16 +124,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v8.1.1",
+            "version": "v8.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "a49e28c9c37230c9ce5a1ba5ef2483142c753f72"
+                "reference": "1a5a663954db4a4415f5b3f5ee183e68487a18a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/a49e28c9c37230c9ce5a1ba5ef2483142c753f72",
-                "reference": "a49e28c9c37230c9ce5a1ba5ef2483142c753f72",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/1a5a663954db4a4415f5b3f5ee183e68487a18a7",
+                "reference": "1a5a663954db4a4415f5b3f5ee183e68487a18a7",
                 "shasum": ""
             },
             "require": {
@@ -165,9 +165,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v8.1.1"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.3"
             },
-            "time": "2021-05-08T05:47:09+00:00"
+            "time": "2021-07-02T23:39:34+00:00"
         },
         {
             "name": "discord-php/slash",
@@ -816,16 +816,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1cb1cde8e8dd0f70cc0fe51354a59acad9302084"
+                "reference": "df991fd88693ab703aa403413d83e15f688dae33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1cb1cde8e8dd0f70cc0fe51354a59acad9302084",
-                "reference": "1cb1cde8e8dd0f70cc0fe51354a59acad9302084",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/df991fd88693ab703aa403413d83e15f688dae33",
+                "reference": "df991fd88693ab703aa403413d83e15f688dae33",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +844,7 @@
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
                 "phpspec/prophecy": "^1.6.1",
-                "phpstan/phpstan": "^0.12.59",
+                "phpstan/phpstan": "^0.12.91",
                 "phpunit/phpunit": "^8.5",
                 "predis/predis": "^1.1",
                 "rollbar/rollbar": "^1.3",
@@ -896,7 +896,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.2.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.3.0"
             },
             "funding": [
                 {
@@ -908,20 +908,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-14T13:15:25+00:00"
+            "time": "2021-07-05T11:34:13+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.49.0",
+            "version": "2.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee"
+                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/93d9db91c0235c486875d22f1e08b50bdf3e6eee",
-                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
+                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
                 "shasum": ""
             },
             "require": {
@@ -973,15 +973,15 @@
                 {
                     "name": "Brian Nesbitt",
                     "email": "brian@nesbot.com",
-                    "homepage": "http://nesbot.com"
+                    "homepage": "https://markido.com"
                 },
                 {
                     "name": "kylekatarnls",
-                    "homepage": "http://github.com/kylekatarnls"
+                    "homepage": "https://github.com/kylekatarnls"
                 }
             ],
             "description": "An API extension for DateTime that supports 281 different languages.",
-            "homepage": "http://carbon.nesbot.com",
+            "homepage": "https://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
@@ -1001,7 +1001,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-02T07:31:40+00:00"
+            "time": "2021-06-28T22:38:45+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2789,16 +2789,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b"
+                "reference": "380b8c9e944d0e364b25f28e8e555241eb49c01c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
-                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/380b8c9e944d0e364b25f28e8e555241eb49c01c",
+                "reference": "380b8c9e944d0e364b25f28e8e555241eb49c01c",
                 "shasum": ""
             },
             "require": {
@@ -2864,7 +2864,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.3.2"
+                "source": "https://github.com/symfony/translation/tree/v5.3.3"
             },
             "funding": [
                 {
@@ -2880,7 +2880,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-06T09:51:56+00:00"
+            "time": "2021-06-27T12:22:47+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -3274,12 +3274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "8398c93ddcfa21302e9c2e6aee460a949969680e"
+                "reference": "75db6e3c01dd9f878935fc5e22c929bc6fe0c6ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/8398c93ddcfa21302e9c2e6aee460a949969680e",
-                "reference": "8398c93ddcfa21302e9c2e6aee460a949969680e",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/75db6e3c01dd9f878935fc5e22c929bc6fe0c6ac",
+                "reference": "75db6e3c01dd9f878935fc5e22c929bc6fe0c6ac",
                 "shasum": ""
             },
             "require": {
@@ -3308,7 +3308,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-06-26T03:30:31+00:00"
+            "time": "2021-07-07T23:04:27+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3316,12 +3316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "c345122a7cbda50ab36b17388afb63cb1834b60c"
+                "reference": "d546d30f28983b7d4f4db7b20f161d7b1fa6491b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/c345122a7cbda50ab36b17388afb63cb1834b60c",
-                "reference": "c345122a7cbda50ab36b17388afb63cb1834b60c",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/d546d30f28983b7d4f4db7b20f161d7b1fa6491b",
+                "reference": "d546d30f28983b7d4f4db7b20f161d7b1fa6491b",
                 "shasum": ""
             },
             "require": {
@@ -3354,7 +3354,7 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2021-06-26T03:26:41+00:00"
+            "time": "2021-06-28T00:56:40+00:00"
         },
         {
             "name": "wyrihaximus/composer-update-bin-autoload-path",
@@ -3676,16 +3676,16 @@
         },
         {
             "name": "wyrihaximus/react-child-process-messenger",
-            "version": "3.1.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-child-process-messenger.git",
-                "reference": "b3ed64f02624f0905b9fbf6d1268abc75e94df2c"
+                "reference": "c8af6e67f04efdb97735904bd23119ad0f3f1c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/b3ed64f02624f0905b9fbf6d1268abc75e94df2c",
-                "reference": "b3ed64f02624f0905b9fbf6d1268abc75e94df2c",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/c8af6e67f04efdb97735904bd23119ad0f3f1c14",
+                "reference": "c8af6e67f04efdb97735904bd23119ad0f3f1c14",
                 "shasum": ""
             },
             "require": {
@@ -3744,7 +3744,7 @@
             "description": "Messenger decorator for react/child-process",
             "support": {
                 "issues": "https://github.com/WyriHaximus/reactphp-child-process-messenger/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-messenger/tree/3.1.0"
+                "source": "https://github.com/WyriHaximus/reactphp-child-process-messenger/tree/4.0.0"
             },
             "funding": [
                 {
@@ -3752,20 +3752,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-17T22:36:30+00:00"
+            "time": "2021-07-04T20:56:16+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-pool",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-child-process-pool.git",
-                "reference": "18bd71fe72e31c5dc50ed94aaa5ca931e782d201"
+                "reference": "708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-pool/zipball/18bd71fe72e31c5dc50ed94aaa5ca931e782d201",
-                "reference": "18bd71fe72e31c5dc50ed94aaa5ca931e782d201",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-pool/zipball/708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9",
+                "reference": "708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9",
                 "shasum": ""
             },
             "require": {
@@ -3774,7 +3774,7 @@
                 "react/event-loop": "^1.1",
                 "wyrihaximus/cpu-core-detector": "^2 || ^1.0.2",
                 "wyrihaximus/file-descriptors": "^2 || ^1.0 || ^0.1",
-                "wyrihaximus/react-child-process-messenger": "^3 || ^2.10.1",
+                "wyrihaximus/react-child-process-messenger": "^4 || ^3 || ^2.10.1",
                 "wyrihaximus/ticking-promise": "^2 || ^1.5"
             },
             "require-dev": {
@@ -3809,7 +3809,7 @@
             "description": "Pool wyrihaximus/react-child-process-messenger processes",
             "support": {
                 "issues": "https://github.com/WyriHaximus/reactphp-child-process-pool/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-pool/tree/1.7.0"
+                "source": "https://github.com/WyriHaximus/reactphp-child-process-pool/tree/1.8.0"
             },
             "funding": [
                 {
@@ -3817,7 +3817,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-16T20:21:51+00:00"
+            "time": "2021-07-04T21:49:01+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-promise",

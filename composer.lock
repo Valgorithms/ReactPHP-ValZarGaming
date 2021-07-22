@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakephp/core",
-            "version": "4.2.7",
+            "version": "4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
-                "reference": "aa8b40e2adcfbe52c71ec273866628ffc6d87838"
+                "reference": "bed4b6f09550909beea5440627d5a6ff85fb1934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/aa8b40e2adcfbe52c71ec273866628ffc6d87838",
-                "reference": "aa8b40e2adcfbe52c71ec273866628ffc6d87838",
+                "url": "https://api.github.com/repos/cakephp/core/zipball/bed4b6f09550909beea5440627d5a6ff85fb1934",
+                "reference": "bed4b6f09550909beea5440627d5a6ff85fb1934",
                 "shasum": ""
             },
             "require": {
@@ -61,11 +61,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/core"
             },
-            "time": "2021-05-24T17:26:44+00:00"
+            "time": "2021-06-26T14:06:56+00:00"
         },
         {
             "name": "cakephp/utility",
-            "version": "4.2.7",
+            "version": "4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
@@ -3057,12 +3057,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "c7dca6b1680edad524970bfe17e9114c8629d51d"
+                "reference": "9a46b536ca88f8f4513359f14c48d3c6d90b215b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/c7dca6b1680edad524970bfe17e9114c8629d51d",
-                "reference": "c7dca6b1680edad524970bfe17e9114c8629d51d",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/9a46b536ca88f8f4513359f14c48d3c6d90b215b",
+                "reference": "9a46b536ca88f8f4513359f14c48d3c6d90b215b",
                 "shasum": ""
             },
             "require": {
@@ -3118,7 +3118,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-07-15T01:28:41+00:00"
+            "time": "2021-07-15T05:19:47+00:00"
         },
         {
             "name": "thecodingmachine/safe",

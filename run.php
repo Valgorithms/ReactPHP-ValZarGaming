@@ -85,14 +85,14 @@ $twitch_options = array(
 	'responses' => [ // Whenever a message is sent matching a key and prefixed with a command symbol, reply with the defined value
 		'ping' => 'Pong!',
 		'github' => 'https://github.com/VZGCoders/TwitchPHP',
-		'lurk' => 'You have said the magick word to make yourself invisible to all eyes upon you, allowing you to fade into the shadows.',
-		'return' => 'You have rolled a Nat 1, clearing your invisibility buff from earlier. You might want to roll for initiative…',
+		//'lurk' => 'You have said the magick word to make yourself invisible to all eyes upon you, allowing you to fade into the shadows.',
+		//'return' => 'You have rolled a Nat 1, clearing your invisibility buff from earlier. You might want to roll for initiative…',
 	],
 	'functions' => [ // Enabled functions usable by anyone
 		'help', // Send a list of commands as a chat message
 	],
 	'restricted_functions' => [ // Enabled functions usable only by whitelisted users
-		'so', //Advertise someone else
+		//'so', //Advertise someone else
 	],
 	'private_functions' => [ // Enabled functions usable only by the bot owner sharing the same username as the bot
 		'php', //Outputs the current version of PHP as a message
@@ -117,8 +117,8 @@ $twitch_options = array(
 	*/
 );
 // Responses that reference other values in options should be declared afterwards
-$twitch_options['responses']['social'] = 'Come follow the magick through several dimensions:  Twitter - '.$twitch_options['social']['twitter'].' |  Instagram - '.$twitch_options['social']['instagram'].' |  Discord - '.$twitch_options['social']['discord'].' |  Tumblr - '.$twitch_options['social']['tumblr'].' |  YouTube - '.$twitch_options['social']['youtube'];
-$twitch_options['responses']['tip'] = 'Wanna help fund the magick?  PayPal - '.$twitch_options['tip']['paypal'].' |  CashApp - '.$twitch_options['tip']['cashapp'];
+//$twitch_options['responses']['social'] = 'Come follow the magick through several dimensions:  Twitter - '.$twitch_options['social']['twitter'].' |  Instagram - '.$twitch_options['social']['instagram'].' |  Discord - '.$twitch_options['social']['discord'].' |  Tumblr - '.$twitch_options['social']['tumblr'].' |  YouTube - '.$twitch_options['social']['youtube'];
+//$twitch_options['responses']['tip'] = 'Wanna help fund the magick?  PayPal - '.$twitch_options['tip']['paypal'].' |  CashApp - '.$twitch_options['tip']['cashapp'];
 $twitch_options['responses']['discord'] = $twitch_options['social']['discord'];
 $twitch = new Twitch\Twitch($twitch_options);
 

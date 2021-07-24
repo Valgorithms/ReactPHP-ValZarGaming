@@ -816,16 +816,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "9738e495f288eec0b187e310b7cdbbb285777dbe"
+                "reference": "71312564759a7db5b789296369c1a264efc43aad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/9738e495f288eec0b187e310b7cdbbb285777dbe",
-                "reference": "9738e495f288eec0b187e310b7cdbbb285777dbe",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/71312564759a7db5b789296369c1a264efc43aad",
+                "reference": "71312564759a7db5b789296369c1a264efc43aad",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +896,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.3.1"
+                "source": "https://github.com/Seldaek/monolog/tree/2.3.2"
             },
             "funding": [
                 {
@@ -908,7 +908,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-14T11:56:39+00:00"
+            "time": "2021-07-23T07:42:52+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3057,12 +3057,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "9a46b536ca88f8f4513359f14c48d3c6d90b215b"
+                "reference": "f15aeec36118dc053d8336cda9cdba5f29fcf9ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/9a46b536ca88f8f4513359f14c48d3c6d90b215b",
-                "reference": "9a46b536ca88f8f4513359f14c48d3c6d90b215b",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/f15aeec36118dc053d8336cda9cdba5f29fcf9ca",
+                "reference": "f15aeec36118dc053d8336cda9cdba5f29fcf9ca",
                 "shasum": ""
             },
             "require": {
@@ -3118,7 +3118,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-07-15T05:19:47+00:00"
+            "time": "2021-07-24T02:53:50+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3365,12 +3365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "ec63391f958a5cc1a136d946a0382731524fd73e"
+                "reference": "7f9083c3a9a28afab48a347f91123cc5abf0f6ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/ec63391f958a5cc1a136d946a0382731524fd73e",
-                "reference": "ec63391f958a5cc1a136d946a0382731524fd73e",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/7f9083c3a9a28afab48a347f91123cc5abf0f6ea",
+                "reference": "7f9083c3a9a28afab48a347f91123cc5abf0f6ea",
                 "shasum": ""
             },
             "require": {
@@ -3399,7 +3399,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-07-15T01:45:54+00:00"
+            "time": "2021-07-24T03:20:58+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

@@ -119,7 +119,7 @@ $twitch_options = array(
 // Responses that reference other values in options should be declared afterwards
 //$twitch_options['responses']['social'] = 'Come follow the magick through several dimensions:  Twitter - '.$twitch_options['social']['twitter'].' |  Instagram - '.$twitch_options['social']['instagram'].' |  Discord - '.$twitch_options['social']['discord'].' |  Tumblr - '.$twitch_options['social']['tumblr'].' |  YouTube - '.$twitch_options['social']['youtube'];
 //$twitch_options['responses']['tip'] = 'Wanna help fund the magick?  PayPal - '.$twitch_options['tip']['paypal'].' |  CashApp - '.$twitch_options['tip']['cashapp'];
-$twitch_options['responses']['discord'] = $twitch_options['social']['discord'];
+//$twitch_options['responses']['discord'] = $twitch_options['social']['discord'];
 $twitch = new Twitch\Twitch($twitch_options);
 
 $options = array(

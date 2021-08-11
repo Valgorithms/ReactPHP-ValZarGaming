@@ -3366,12 +3366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "899a25c0d645d19c210929af950184bc9e8b16f6"
+                "reference": "332823a3eaf7191ad28a8984626611f23b09c128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/899a25c0d645d19c210929af950184bc9e8b16f6",
-                "reference": "899a25c0d645d19c210929af950184bc9e8b16f6",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/332823a3eaf7191ad28a8984626611f23b09c128",
+                "reference": "332823a3eaf7191ad28a8984626611f23b09c128",
                 "shasum": ""
             },
             "require": {
@@ -3400,7 +3400,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-08-08T20:01:38+00:00"
+            "time": "2021-08-10T21:35:27+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

@@ -132,6 +132,11 @@ $options = array(
 );
 
 $valzargaming = new ValZarGaming\ValZarGaming($options);
+
+$discord->getLoop()->addTimer(86400, function() {
+	exit();
+}
+
 echo 'cwd: ' . getcwd() . PHP_EOL;
 include 'Palace/Palace_include.php'; //Declare Discord event listeners and start the bot
 //$valzargaming->run(); //Twitch and Discord start independently inside of Palace_include.php, and for some reason $twitch does not get started with this

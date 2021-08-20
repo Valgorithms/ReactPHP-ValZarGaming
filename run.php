@@ -7,6 +7,7 @@
 
 ini_set('max_execution_time', 0);
 define('MAIN_INCLUDED', 1); //Token and SQL credential files are protected, this must be defined to access
+$GLOBALS['debug_echo'] = false; //Both Palace and Slash checks for this to determine whether to echo debug prompts or not
  
 include 'vendor/autoload.php';
 include 'ValZarGaming/ValZarGaming.php';
@@ -139,7 +140,6 @@ $discord->getLoop()->addTimer(86400, function() {
 
 echo 'cwd: ' . getcwd() . PHP_EOL;
 
-$GLOBALS['debug_echo'] = false;
 include 'Palace/Palace_include.php'; //Declare Discord event listeners and start the bot
 //$valzargaming->run(); //Twitch and Discord start independently inside of Palace_include.php, and for some reason $twitch does not get started with this
 ?>

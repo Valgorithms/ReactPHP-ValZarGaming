@@ -3058,12 +3058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "8e9cbf993826d0e00c30bd6cb5be931346eb79f5"
+                "reference": "c74c3e32ee760bd816f0d51a902b5192ced5dcb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/8e9cbf993826d0e00c30bd6cb5be931346eb79f5",
-                "reference": "8e9cbf993826d0e00c30bd6cb5be931346eb79f5",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/c74c3e32ee760bd816f0d51a902b5192ced5dcb1",
+                "reference": "c74c3e32ee760bd816f0d51a902b5192ced5dcb1",
                 "shasum": ""
             },
             "require": {
@@ -3119,7 +3119,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-08-14T11:04:11+00:00"
+            "time": "2021-08-24T23:40:43+00:00"
         },
         {
             "name": "thecodingmachine/safe",

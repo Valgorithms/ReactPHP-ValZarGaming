@@ -11,7 +11,7 @@ $GLOBALS['debug_echo'] = false; //Both Palace and Slash checks for this to deter
  
 include 'vendor/autoload.php';
 include 'ValZarGaming/ValZarGaming.php';
-require __DIR__.'/../secret.php'; //$secret
+require __DIR__ .'/../secret.php'; //$secret
 require __DIR__ . '/../token.php'; //$token
 
 $loop = React\EventLoop\Factory::create();

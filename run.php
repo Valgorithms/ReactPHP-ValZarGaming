@@ -43,7 +43,9 @@ $twitch_options = array(
 	'channels' => [
 		'valzargaming', // Channel to join
 		'daathren', // (Optional) Additional channels
-		'smalltowngamingtv', // (Optional) Additional channels
+		'smalltowngamingtv',
+		'shrineplays',
+		'violentvixen_',
 	],
 	
 	//Optional
@@ -68,6 +70,8 @@ $twitch_options = array(
 		'valzargaming',
 		'daathren',
 		'smalltowngamingtv',
+		'shrineplays',
+		'violentvixen_',
 	],
 	'badwords' => [ // List of blacklisted words or phrases in their entirety; User will be immediately banned with reason 'badword' if spoken in chat
 		'Buy followers, primes and viewers',

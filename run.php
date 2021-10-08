@@ -46,6 +46,7 @@ $twitch_options = array(
 		'smalltowngamingtv',
 		'shrineplays',
 		'violentvixen_',
+		'linkdrako',
 	],
 	
 	//Optional
@@ -72,6 +73,7 @@ $twitch_options = array(
 		'smalltowngamingtv',
 		'shrineplays',
 		'violentvixen_',
+		'linkdrako',
 	],
 	'badwords' => [ // List of blacklisted words or phrases in their entirety; User will be immediately banned with reason 'badword' if spoken in chat
 		'Buy followers, primes and viewers',

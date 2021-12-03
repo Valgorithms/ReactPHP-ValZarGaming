@@ -11,8 +11,6 @@ ini_set('memory_limit', '-1'); //Unlimited memory usage
 //Always subtract 1 when counting roles because everyone has an @everyone role
 $vm = false; //Set this to true if using a VM that can be paused
 
-//use RestCord\DiscordClient;
-
 function execInBackground($cmd) {
     if (substr(php_uname(), 0, 7) == "Windows") {
         pclose(popen("start ". $cmd, "r")); //pclose(popen("start /B ". $cmd, "r"));
@@ -152,7 +150,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 			break;
 
 		case 'lookup':
-			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') { //This can be abused to cause 429's with Restcord and should only be used by the website. All other cases should use 'user'
+			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') {
 				echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
 				return new \GuzzleHttp\Psr7\Response(501, ['Content-Type' => 'text/plain'], 'Reject'.PHP_EOL);
 			}
@@ -299,7 +297,7 @@ try {
         }
     });
 
-    $discord->once('ready', function ($discord) use ($loop, $token, /*$restcord,*/ $stats, $twitch, $browser) {	// Listen for events here
+    $discord->once('ready', function ($discord) use ($loop, $token, $stats, $twitch, $browser) {	// Listen for events here
         //$line_count = COUNT(FILE(basename($_SERVER['PHP_SELF']))); //No longer relevant due to includes
         //$version = "RC V1.4.1";
         /*
@@ -333,8 +331,8 @@ try {
 		]);
 		$discord->updatePresence($act, false, 'online');
 		
-        $discord->on('message', function ($message, $discord) use ($loop, $token, $restcord, $stats, $twitch, $browser) { //Handling of a message
-			message($message, $discord, $loop, $token, $restcord, $stats, $twitch, $browser);
+        $discord->on('message', function ($message, $discord) use ($loop, $token, $stats, $twitch, $browser) { //Handling of a message
+			message($message, $discord, $loop, $token, $stats, $twitch, $browser);
         });
             
         $discord->on('GUILD_MEMBER_ADD', function ($guildmember) use ($discord) { //Handling of a member joining the guild
@@ -463,7 +461,7 @@ try {
         });
     }); //end main function ready
 
-    $discord->on('disconnect', function ($erMsg, $code) use ($discord, $token, /*$restcord,*/ $vm) {
+    $discord->on('disconnect', function ($erMsg, $code) use ($discord, $token, $vm) {
         //Restart the bot if it disconnects
         //This is almost always going to be caused by error code 1006, meaning the bot did not get heartbeat from Discord
         include "disconnect-include.php";
@@ -500,7 +498,6 @@ try {
         "GLOBALS",
         "loop",
         "discord",
-        "restcord",
         "MachiKoro_Games"
     );
     echo "Skipped: ";

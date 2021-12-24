@@ -52,8 +52,8 @@ $twitch_options = array(
 	//Optional
 	'discord' => $discord, // Pass your own instance of DiscordPHP (https://github.com/discord-php/DiscordPHP)	
 	'discord_output' => true, // Output Twitch chat to a Discord server
-	'guild_id' => '116927365652807686', //ID of the Discord server
-	'channel_id' => '431415282129698866', //ID of the Discord channel to output messages to
+	'guild_id' => '923969098185068594', //ID of the Discord server
+	'channel_id' => '924019611534503996', //ID of the Discord channel to output messages to
 	
 	'loop' => $loop, // Pass your own instance of $loop to share with other ReactPHP applications
 	'socket_options' => [

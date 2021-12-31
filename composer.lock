@@ -3061,16 +3061,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "b7956e00c6e03546f2ba489fc50f7c47933e76b8"
+                "reference": "a16c33f93e2fd62d259222aebf792158e9a28a77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/b7956e00c6e03546f2ba489fc50f7c47933e76b8",
-                "reference": "b7956e00c6e03546f2ba489fc50f7c47933e76b8",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/a16c33f93e2fd62d259222aebf792158e9a28a77",
+                "reference": "a16c33f93e2fd62d259222aebf792158e9a28a77",
                 "shasum": ""
             },
             "require": {
@@ -3136,7 +3136,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.0.1"
+                "source": "https://github.com/symfony/translation/tree/v6.0.2"
             },
             "funding": [
                 {
@@ -3152,7 +3152,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-08T15:13:44+00:00"
+            "time": "2021-12-25T20:10:03+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -3238,12 +3238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "86069e1de20cd2fa60146dc383ef915f5a0d583c"
+                "reference": "9b78081b476c7da6c4f567d574e258d5f3b9eb4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/86069e1de20cd2fa60146dc383ef915f5a0d583c",
-                "reference": "86069e1de20cd2fa60146dc383ef915f5a0d583c",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/9b78081b476c7da6c4f567d574e258d5f3b9eb4c",
+                "reference": "9b78081b476c7da6c4f567d574e258d5f3b9eb4c",
                 "shasum": ""
             },
             "require": {
@@ -3271,6 +3271,7 @@
             },
             "suggest": {
                 "ext-event": "For a faster, and more performant loop.",
+                "ext-gmp": "For Permissions and 64 bit calculations on x86 (32 bit) PHP.",
                 "ext-libev": "For a faster, and more performant loop.",
                 "ext-mbstring": "For accurate calculations of string length when handling non-english characters.",
                 "ext-uv": "For a faster, and more performant loop. Preferred."
@@ -3300,7 +3301,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2021-12-28T20:49:59+00:00"
+            "time": "2021-12-31T17:16:18+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3547,12 +3548,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "513783d6cfc377669fbada215ba18d321a0c5cc6"
+                "reference": "d9e7b88ecdc062d5076cf3c6b037d8bea82f4af2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/513783d6cfc377669fbada215ba18d321a0c5cc6",
-                "reference": "513783d6cfc377669fbada215ba18d321a0c5cc6",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/d9e7b88ecdc062d5076cf3c6b037d8bea82f4af2",
+                "reference": "d9e7b88ecdc062d5076cf3c6b037d8bea82f4af2",
                 "shasum": ""
             },
             "require": {
@@ -3584,7 +3585,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2021-12-29T03:16:17+00:00"
+            "time": "2021-12-31T18:26:04+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

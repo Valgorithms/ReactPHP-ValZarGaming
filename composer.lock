@@ -3241,12 +3241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "62154947ff14e9faf07c401438430a0ca8d3c4dd"
+                "reference": "c4f5efb4613bfe2cb7ecab1bb634158cba9e4897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/62154947ff14e9faf07c401438430a0ca8d3c4dd",
-                "reference": "62154947ff14e9faf07c401438430a0ca8d3c4dd",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/c4f5efb4613bfe2cb7ecab1bb634158cba9e4897",
+                "reference": "c4f5efb4613bfe2cb7ecab1bb634158cba9e4897",
                 "shasum": ""
             },
             "require": {
@@ -3302,9 +3302,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/master"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.0.0-RC2"
             },
-            "time": "2022-01-08T16:07:35+00:00"
+            "time": "2022-01-09T03:44:32+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3551,12 +3551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "ba82d626f6a1147db58c625475cd18e7ce85c792"
+                "reference": "c641c176745662776c297098513729e95455ac37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/ba82d626f6a1147db58c625475cd18e7ce85c792",
-                "reference": "ba82d626f6a1147db58c625475cd18e7ce85c792",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/c641c176745662776c297098513729e95455ac37",
+                "reference": "c641c176745662776c297098513729e95455ac37",
                 "shasum": ""
             },
             "require": {
@@ -3588,7 +3588,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-01-08T15:54:56+00:00"
+            "time": "2022-01-09T17:35:31+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

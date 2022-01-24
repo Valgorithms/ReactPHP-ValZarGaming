@@ -124,16 +124,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v9.0.8",
+            "version": "v9.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "cc6797dbd99fb756e6b86bfbadbf6507a7e3f2a1"
+                "reference": "a01b62ba4ab1051eb227077a432b0614d563611a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/cc6797dbd99fb756e6b86bfbadbf6507a7e3f2a1",
-                "reference": "cc6797dbd99fb756e6b86bfbadbf6507a7e3f2a1",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/a01b62ba4ab1051eb227077a432b0614d563611a",
+                "reference": "a01b62ba4ab1051eb227077a432b0614d563611a",
                 "shasum": ""
             },
             "require": {
@@ -165,9 +165,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.8"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.9"
             },
-            "time": "2021-12-14T07:49:35+00:00"
+            "time": "2022-01-23T16:29:30+00:00"
         },
         {
             "name": "discord-php/slash",
@@ -3551,12 +3551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "4bc703323c29128da2346e79799b2e3d5f0b303a"
+                "reference": "0495ae4a0cbe30f43bc803bb95c91bc4d501b485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/4bc703323c29128da2346e79799b2e3d5f0b303a",
-                "reference": "4bc703323c29128da2346e79799b2e3d5f0b303a",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/0495ae4a0cbe30f43bc803bb95c91bc4d501b485",
+                "reference": "0495ae4a0cbe30f43bc803bb95c91bc4d501b485",
                 "shasum": ""
             },
             "require": {
@@ -3588,7 +3588,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-01-16T23:38:34+00:00"
+            "time": "2022-01-24T04:51:05+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

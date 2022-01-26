@@ -1008,16 +1008,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.55.2",
+            "version": "2.56.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1034,7 @@
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan": "^0.12.54 || ^1.0",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.14",
                 "squizlabs/php_codesniffer": "^3.4"
             },
@@ -1100,7 +1100,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-03T14:59:52+00:00"
+            "time": "2022-01-21T17:08:38+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3241,16 +3241,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "ee749fcd62c45aa7d8e0b00f30ad78ae5b7baeff"
+                "reference": "e3d04be494557ab21aba4c1822bc9165ceca5a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/ee749fcd62c45aa7d8e0b00f30ad78ae5b7baeff",
-                "reference": "ee749fcd62c45aa7d8e0b00f30ad78ae5b7baeff",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/e3d04be494557ab21aba4c1822bc9165ceca5a0a",
+                "reference": "e3d04be494557ab21aba4c1822bc9165ceca5a0a",
                 "shasum": ""
             },
             "require": {
-                "discord-php/http": "^9.0.5",
+                "discord-php/http": "^9.0.9",
                 "discord/interactions": "^2.1",
                 "ext-json": "*",
                 "ext-zlib": "*",
@@ -3302,9 +3302,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/master"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.0.0-RC3"
             },
-            "time": "2022-01-22T06:17:33+00:00"
+            "time": "2022-01-25T07:02:30+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3551,12 +3551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "0495ae4a0cbe30f43bc803bb95c91bc4d501b485"
+                "reference": "9ab366d89f4f37f737330ee3bc4e4f5c69c75a22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/0495ae4a0cbe30f43bc803bb95c91bc4d501b485",
-                "reference": "0495ae4a0cbe30f43bc803bb95c91bc4d501b485",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/9ab366d89f4f37f737330ee3bc4e4f5c69c75a22",
+                "reference": "9ab366d89f4f37f737330ee3bc4e4f5c69c75a22",
                 "shasum": ""
             },
             "require": {
@@ -3588,7 +3588,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-01-24T04:51:05+00:00"
+            "time": "2022-01-26T02:38:51+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

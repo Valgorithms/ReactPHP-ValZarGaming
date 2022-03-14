@@ -298,6 +298,7 @@ try {
     });
 
     $discord->once('ready', function ($discord) use ($loop, $token, $stats, $twitch, $browser) {	// Listen for events here
+		include getcwd() . '../vendor/vzgcoders/palace/slash.php';
         //$line_count = COUNT(FILE(basename($_SERVER['PHP_SELF']))); //No longer relevant due to includes
         //$version = "RC V1.4.1";
         /*
@@ -410,7 +411,7 @@ try {
         });
         
         $discord->on('CHANNEL_UPDATE', function ($channel) use ($discord) { //Handling of a channel being changed
-            echo "[channelUpdate]" . PHP_EOL;
+            echo "[channelUpdate] " . $channel->guild_id . '/' . $channel->id . PHP_EOL;
         });
             
         $discord->on('userUpdate', function ($user_new, $user_old) use ($discord) { //Handling of a user changing their username/avatar/etc

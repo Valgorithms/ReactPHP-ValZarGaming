@@ -32,21 +32,22 @@ $discord_options = array(
 $discord = new Discord\Discord($discord_options);
 $browser = new \React\Http\Browser($discord->getLoop()/*, $connector*/);
 include __DIR__ . '/vendor/vzgcoders/palace/stats_object.php';
-include __DIR__ . '/vendor/vzgcoders/palace/slash.php';
 $stats = new Stats();
 $stats->init($discord);
 
+$nick = 'ValZarGaming'; // Twitch username (Case sensitive)
 $twitch_options = array(
 	//Required
 	'secret' => $secret, // Client secret
-	'nick' => 'ValZarGaming', // Twitch username
+	'nick' => $nick, 
 	'channels' => [
-		'valzargaming', // Channel to join
+		strtolower($nick), // Your channel
 		'daathren', // (Optional) Additional channels
 		'smalltowngamingtv',
 		'shrineplays',
 		'violentvixen_',
 		'linkdrako',
+		'ebonychimera',
 	],
 	
 	//Optional
@@ -64,16 +65,18 @@ $twitch_options = array(
 	
 	//Custom commands
 	'commandsymbol' => [ // Process commands if a message starts with a prefix in this array
+		"@$nick", //Users can mention your channel instead of using a command symbol prefix
 		'!',
 		';',
 	],
 	'whitelist' => [ // Users who are allowed to use restricted functions
-		'valzargaming',
+		strtolower($nick), //Your channel
 		'daathren',
 		'smalltowngamingtv',
 		'shrineplays',
 		'violentvixen_',
 		'linkdrako',
+		'ebonychimera',
 	],
 	'badwords' => [ // List of blacklisted words or phrases in their entirety; User will be immediately banned with reason 'badword' if spoken in chat
 		'Buy followers, primes and viewers',

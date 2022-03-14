@@ -124,16 +124,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v9.0.9",
+            "version": "v9.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "a01b62ba4ab1051eb227077a432b0614d563611a"
+                "reference": "5d58a017152295c5769adad7510ec6d88bf2f60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/a01b62ba4ab1051eb227077a432b0614d563611a",
-                "reference": "a01b62ba4ab1051eb227077a432b0614d563611a",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/5d58a017152295c5769adad7510ec6d88bf2f60f",
+                "reference": "5d58a017152295c5769adad7510ec6d88bf2f60f",
                 "shasum": ""
             },
             "require": {
@@ -165,9 +165,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.9"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.10"
             },
-            "time": "2022-01-23T16:29:30+00:00"
+            "time": "2022-02-16T15:10:31+00:00"
         },
         {
             "name": "discord-php/slash",
@@ -227,16 +227,16 @@
         },
         {
             "name": "discord/interactions",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord/discord-interactions-php.git",
-                "reference": "13d087558a5b6864b2c225175c5e0476a88e982f"
+                "reference": "a6fc0c877b75cf5ff5811f2ea69c5cc4ad6ac457"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord/discord-interactions-php/zipball/13d087558a5b6864b2c225175c5e0476a88e982f",
-                "reference": "13d087558a5b6864b2c225175c5e0476a88e982f",
+                "url": "https://api.github.com/repos/discord/discord-interactions-php/zipball/a6fc0c877b75cf5ff5811f2ea69c5cc4ad6ac457",
+                "reference": "a6fc0c877b75cf5ff5811f2ea69c5cc4ad6ac457",
                 "shasum": ""
             },
             "conflict": {
@@ -270,9 +270,9 @@
             ],
             "support": {
                 "issues": "https://github.com/discord/discord-interactions-php/issues",
-                "source": "https://github.com/discord/discord-interactions-php/tree/2.1.0"
+                "source": "https://github.com/discord/discord-interactions-php/tree/2.2.0"
             },
-            "time": "2022-01-04T19:02:07+00:00"
+            "time": "2022-02-09T17:58:51+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -581,12 +581,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -688,12 +688,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1064,16 +1064,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.56.0",
+            "version": "2.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
-                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4a54375c21eea4811dbd1149fe6b246517554e78",
+                "reference": "4a54375c21eea4811dbd1149fe6b246517554e78",
                 "shasum": ""
             },
             "require": {
@@ -1156,7 +1156,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-21T17:08:38+00:00"
+            "time": "2022-02-13T18:13:33+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1491,12 +1491,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Ratchet\\Client\\": "src"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "Ratchet\\Client\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1977,12 +1977,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "React\\Filesystem\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "React\\Filesystem\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2147,23 +2147,23 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.8.0",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "f3cff96a19736714524ca0dd1d4130de73dbbbc4"
+                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/f3cff96a19736714524ca0dd1d4130de73dbbbc4",
-                "reference": "f3cff96a19736714524ca0dd1d4130de73dbbbc4",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+                "reference": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.0 || ^6.5 || ^5.7 || ^4.8.36"
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.36"
             },
             "type": "library",
             "autoload": {
@@ -2181,7 +2181,23 @@
             "authors": [
                 {
                     "name": "Jan Sorgalla",
-                    "email": "jsorgalla@gmail.com"
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
                 }
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
@@ -2191,9 +2207,19 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/promise/issues",
-                "source": "https://github.com/reactphp/promise/tree/v2.8.0"
+                "source": "https://github.com/reactphp/promise/tree/v2.9.0"
             },
-            "time": "2020-05-12T15:16:56+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-02-11T10:27:51+00:00"
         },
         {
             "name": "react/promise-stream",
@@ -2222,12 +2248,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "React\\Promise\\Stream\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "React\\Promise\\Stream\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2305,12 +2331,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "React\\Promise\\Timer\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "React\\Promise\\Timer\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2561,12 +2587,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "RingCentral\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "RingCentral\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2908,12 +2934,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3298,17 +3324,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "dd06659455d8f4338c4ee800ab142bc46b309a36"
+                "reference": "7d41da337714fde0bfcd64ad7b30b3aafc055597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/dd06659455d8f4338c4ee800ab142bc46b309a36",
-                "reference": "dd06659455d8f4338c4ee800ab142bc46b309a36",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/7d41da337714fde0bfcd64ad7b30b3aafc055597",
+                "reference": "7d41da337714fde0bfcd64ad7b30b3aafc055597",
                 "shasum": ""
             },
             "require": {
                 "discord-php/http": "^9.0.9",
-                "discord/interactions": "^2.1",
+                "discord/interactions": "^2.2",
                 "ext-json": "*",
                 "ext-zlib": "*",
                 "mollie/polyfill-libsodium": "^1.1",
@@ -3361,7 +3387,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2022-02-04T20:03:20+00:00"
+            "time": "2022-02-26T04:56:31+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3392,13 +3418,6 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Safe\\": [
-                        "lib/",
-                        "deprecated/",
-                        "generated/"
-                    ]
-                },
                 "files": [
                     "deprecated/apc.php",
                     "deprecated/libevent.php",
@@ -3489,7 +3508,14 @@
                     "generated/yaz.php",
                     "generated/zip.php",
                     "generated/zlib.php"
-                ]
+                ],
+                "psr-4": {
+                    "Safe\\": [
+                        "lib/",
+                        "deprecated/",
+                        "generated/"
+                    ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3608,12 +3634,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "9ab366d89f4f37f737330ee3bc4e4f5c69c75a22"
+                "reference": "3bbf358f3c89c9755d2cde4107dd702622fe7984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/9ab366d89f4f37f737330ee3bc4e4f5c69c75a22",
-                "reference": "9ab366d89f4f37f737330ee3bc4e4f5c69c75a22",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/3bbf358f3c89c9755d2cde4107dd702622fe7984",
+                "reference": "3bbf358f3c89c9755d2cde4107dd702622fe7984",
                 "shasum": ""
             },
             "require": {
@@ -3645,7 +3671,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-01-26T02:38:51+00:00"
+            "time": "2022-02-22T19:01:41+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3653,12 +3679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "32a67765d00bc4a11c358bc292963cb8e215d784"
+                "reference": "4b3449570f305f5155fdc6e67878bc54d4adf4c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/32a67765d00bc4a11c358bc292963cb8e215d784",
-                "reference": "32a67765d00bc4a11c358bc292963cb8e215d784",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/4b3449570f305f5155fdc6e67878bc54d4adf4c2",
+                "reference": "4b3449570f305f5155fdc6e67878bc54d4adf4c2",
                 "shasum": ""
             },
             "require": {
@@ -3691,7 +3717,7 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2021-07-12T19:06:18+00:00"
+            "time": "2022-02-13T20:12:12+00:00"
         },
         {
             "name": "wyrihaximus/composer-update-bin-autoload-path",
@@ -3822,12 +3848,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\CpuCoreDetector\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "WyriHaximus\\CpuCoreDetector\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3928,12 +3954,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "WyriHaximus\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4013,16 +4039,16 @@
         },
         {
             "name": "wyrihaximus/react-child-process-messenger",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-child-process-messenger.git",
-                "reference": "7aebab12f12a09f80a36ce6f5d34a4832a5b6fa5"
+                "reference": "a484664b3a6b4a8e16551d8a139017d03db2b6f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/7aebab12f12a09f80a36ce6f5d34a4832a5b6fa5",
-                "reference": "7aebab12f12a09f80a36ce6f5d34a4832a5b6fa5",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/a484664b3a6b4a8e16551d8a139017d03db2b6f9",
+                "reference": "a484664b3a6b4a8e16551d8a139017d03db2b6f9",
                 "shasum": ""
             },
             "require": {
@@ -4081,7 +4107,7 @@
             "description": "Messenger decorator for react/child-process",
             "support": {
                 "issues": "https://github.com/WyriHaximus/reactphp-child-process-messenger/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-messenger/tree/4.0.1"
+                "source": "https://github.com/WyriHaximus/reactphp-child-process-messenger/tree/4.0.2"
             },
             "funding": [
                 {
@@ -4089,7 +4115,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-03T15:48:06+00:00"
+            "time": "2022-02-08T15:53:16+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-pool",
@@ -4184,12 +4210,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\React\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "WyriHaximus\\React\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4239,12 +4265,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\React\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "WyriHaximus\\React\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4283,5 +4309,5 @@
         "php": "^8.0.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }

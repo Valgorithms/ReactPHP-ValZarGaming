@@ -23,7 +23,7 @@ $discord_options = array(
 	'socket_options' => [
 		'dns' => '8.8.8.8', // can change dns
 	],
-	'token' => "$token",
+	'token' => $token,
 	'loadAllMembers' => true,
 	'storeMessages' => true,
 	'logger' => $logger,

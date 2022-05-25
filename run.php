@@ -42,8 +42,8 @@ $twitch_options = array(
 	'nick' => $nick, 
 	'channels' => [
 		strtolower($nick), // Your channel
-		'daathren', // (Optional) Additional channels
-		'smalltowngamingtv',
+		'smalltowngamingtv', // (Optional) Additional channels
+		'rattlesire',
 		'shrineplays',
 		'violentvixen_',
 		'linkdrako',
@@ -71,8 +71,8 @@ $twitch_options = array(
 	],
 	'whitelist' => [ // Users who are allowed to use restricted functions
 		strtolower($nick), //Your channel
-		'daathren',
 		'smalltowngamingtv',
+		'rattlesire',
 		'shrineplays',
 		'violentvixen_',
 		'linkdrako',
@@ -84,15 +84,13 @@ $twitch_options = array(
 		'stearncomminuty',
 	],
 	'social' => [ //NYI
-		'twitter' => 'https://twitter.com/daathren',
-		'instagram' => 'https://www.instagram.com/daathren',
-		'discord' => 'https://discord.gg/CpVbC78XWT',
-		'tumblr' => 'https://daathren.tumblr.com',
-		'youtube' => 'https://www.youtube.com/daathren',
+		'twitter' => 'https://twitter.com/valzargaming',
+		'discord' => 'https://discord.gg/NU4BS5P36g',
+		'youtube' => 'https://www.youtube.com/valzargaming',
 	],
 	'tip' => [ //NYI
-		'paypal' => 'https://www.paypal.com/paypalme/daathren',
-		'cashapp' => '$DAAthren',
+		'paypal' => 'https://www.paypal.com/paypalme/valithor',
+		'cashapp' => '$Valithor',
 	],
 	'responses' => [ // Whenever a message is sent matching a key and prefixed with a command symbol, reply with the defined value
 		'ping' => 'Pong!',

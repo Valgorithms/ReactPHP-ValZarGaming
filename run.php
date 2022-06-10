@@ -17,7 +17,6 @@ require __DIR__ . '/../token.php'; //$token
 $loop = React\EventLoop\Factory::create();
 $logger = new Monolog\Logger('New logger');
 $logger->pushHandler(new Monolog\Handler\StreamHandler('php://stdout'));
-
 $discord_options = array(
 	'loop' => $loop,
 	'socket_options' => [
@@ -61,7 +60,7 @@ $twitch_options = array(
 		'dns' => '8.8.8.8', // Can change DNS provider
 	],
 	'verbose' => true, // Additional output to console (useful for debugging)
-	'debug' => false, // Additional output to console (useful for debugging communications with Twitch)
+	'debug' => true, // Additional output to console (useful for debugging communications with Twitch)
 	
 	//Custom commands
 	'commandsymbol' => [ // Process commands if a message starts with a prefix in this array

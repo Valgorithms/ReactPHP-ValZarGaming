@@ -15,6 +15,7 @@ class ValZarGaming
 	
 	public $discord;
 	public $twitch;
+	public $civ13;
 	
 	protected $verbose = true;
 	

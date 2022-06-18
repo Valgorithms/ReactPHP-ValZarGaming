@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is apart of the ValZargaming project.
  *

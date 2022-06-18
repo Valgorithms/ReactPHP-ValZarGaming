@@ -2,7 +2,8 @@
 	"require": {
         "php": "^8.0.0",
 		"vzgcoders/palace": "dev-master",
-		"discord-php/slash": "^1.0.5"
+		"discord-php/slash": "^1.0.5",
+		"clue/zlib-react": "^1.1"
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true

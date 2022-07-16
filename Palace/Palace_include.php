@@ -364,8 +364,8 @@ try {
 			messageUpdateRaw($channel, $data_array, $discord);
         });
         
-        $discord->on('MESSAGE_DELETE', function ($message) use ($discord) { //Handling of a message being deleted
-			messageDelete($message, $discord);
+        $discord->on('MESSAGE_DELETE', function ($message) use ($discord, $browser) { //Handling of a message being deleted
+			messageDelete($message, $discord, $browser);
         });
         
         $discord->on('messageDeleteRaw', function ($channel, $message_id) use ($discord) { //Handling of an old/uncached message being deleted

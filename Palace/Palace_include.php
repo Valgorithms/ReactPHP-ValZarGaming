@@ -372,9 +372,9 @@ try {
 			messageDeleteRaw($channel, $message_id, $discord);
         });
         
-        $discord->on('MESSAGE_DELETE_BULK', function ($messages) use ($discord) { //Handling of multiple messages being deleted
+        $discord->on('MESSAGE_DELETE_BULK', function ($messages) use ($discord, $browser) { //Handling of multiple messages being deleted
 			echo "[messageDeleteBulk]" . PHP_EOL;
-            foreach ($messages as $message) messageDelete($message, $discord);
+            foreach ($messages as $message) messageDelete($message, $discord, $browser);
         });
         
         $discord->on('messageDeleteBulkRaw', function ($messages) use ($discord) { //Handling of multiple old/uncached messages being deleted

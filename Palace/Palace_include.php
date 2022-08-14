@@ -61,7 +61,7 @@ function webapiSnow($string) {
 }
 $GLOBALS['querycount'] = 0;
 $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerRequestInterface $request) use ($discord) {
-	$path = explode('/', $request->getUri()->getPath());
+	$path = explode('/', $request->getUri()->getPath()); var_dump($request->getUri()->getPath()); echo PHP_EOL;
 	$sub = (isset($path[1]) ? (string) $path[1] : false);
 	$id = (isset($path[2]) ? (string) $path[2] : false);
 	$id2 = (isset($path[3]) ? (string) $path[3] : false);

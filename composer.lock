@@ -197,16 +197,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v9.1.3",
+            "version": "v9.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "4c2a7ed28342d69be8d04e8ef5f683cf38a7b20c"
+                "reference": "6f747570fe7f46d1a5f88bac6d7f686dd05222e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/4c2a7ed28342d69be8d04e8ef5f683cf38a7b20c",
-                "reference": "4c2a7ed28342d69be8d04e8ef5f683cf38a7b20c",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/6f747570fe7f46d1a5f88bac6d7f686dd05222e1",
+                "reference": "6f747570fe7f46d1a5f88bac6d7f686dd05222e1",
                 "shasum": ""
             },
             "require": {
@@ -242,9 +242,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.1.3"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.1.4"
             },
-            "time": "2022-08-05T15:33:01+00:00"
+            "time": "2022-08-21T01:34:25+00:00"
         },
         {
             "name": "discord-php/slash",
@@ -937,53 +937,6 @@
                 }
             ],
             "time": "2022-06-20T21:43:11+00:00"
-        },
-        {
-            "name": "mollie/polyfill-libsodium",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mollie/polyfill-libsodium.git",
-                "reference": "60351707e048080a2218a97296f88733f050f183"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mollie/polyfill-libsodium/zipball/60351707e048080a2218a97296f88733f050f183",
-                "reference": "60351707e048080a2218a97296f88733f050f183",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "suggest": {
-                "ext-sodium": "The new sodium php extension"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "./bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Martijn Smit",
-                    "email": "smit@mollie.com"
-                },
-                {
-                    "name": "Willem Stuursma-Ruwen",
-                    "email": "willem@mollie.com"
-                }
-            ],
-            "description": "A polyfill package to transition from the libsodium php extension to the sodium extension. Which is included in PHP 7.2",
-            "support": {
-                "issues": "https://github.com/mollie/polyfill-libsodium/issues",
-                "source": "https://github.com/mollie/polyfill-libsodium/tree/master"
-            },
-            "time": "2018-01-22T16:27:22+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2039,16 +1992,16 @@
         },
         {
             "name": "react/http",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
-                "reference": "59961cc4a5b14481728f07c591546be18fa3a5c7"
+                "reference": "4a1e85382e8c2a9e0fdb8ac04e94585da2083bfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http/zipball/59961cc4a5b14481728f07c591546be18fa3a5c7",
-                "reference": "59961cc4a5b14481728f07c591546be18fa3a5c7",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/4a1e85382e8c2a9e0fdb8ac04e94585da2083bfa",
+                "reference": "4a1e85382e8c2a9e0fdb8ac04e94585da2083bfa",
                 "shasum": ""
             },
             "require": {
@@ -2064,11 +2017,12 @@
                 "ringcentral/psr7": "^1.2"
             },
             "require-dev": {
-                "clue/block-react": "^1.5",
                 "clue/http-proxy-react": "^1.7",
                 "clue/reactphp-ssh-proxy": "^1.3",
                 "clue/socks-react": "^1.3",
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
+                "react/async": "^4 || ^3 || ^2",
+                "react/promise-timer": "^1.9"
             },
             "type": "library",
             "autoload": {
@@ -2118,7 +2072,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/http/issues",
-                "source": "https://github.com/reactphp/http/tree/v1.6.0"
+                "source": "https://github.com/reactphp/http/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -2130,7 +2084,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-03T13:17:37+00:00"
+            "time": "2022-08-23T12:31:28+00:00"
         },
         {
             "name": "react/partial",
@@ -2423,16 +2377,16 @@
         },
         {
             "name": "react/socket",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "f474156aaab4f09041144fa8b57c7d70aed32a1c"
+                "reference": "81e1b4d7f5450ebd8d2e9a95bb008bb15ca95a7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/f474156aaab4f09041144fa8b57c7d70aed32a1c",
-                "reference": "f474156aaab4f09041144fa8b57c7d70aed32a1c",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/81e1b4d7f5450ebd8d2e9a95bb008bb15ca95a7b",
+                "reference": "81e1b4d7f5450ebd8d2e9a95bb008bb15ca95a7b",
                 "shasum": ""
             },
             "require": {
@@ -2440,14 +2394,14 @@
                 "php": ">=5.3.0",
                 "react/dns": "^1.8",
                 "react/event-loop": "^1.2",
-                "react/promise": "^2.6.0 || ^1.2.1",
-                "react/promise-timer": "^1.8",
+                "react/promise": "^3 || ^2.6 || ^1.2.1",
+                "react/promise-timer": "^1.9",
                 "react/stream": "^1.2"
             },
             "require-dev": {
-                "clue/block-react": "^1.5",
                 "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
-                "react/promise-stream": "^1.2"
+                "react/async": "^4 || ^3 || ^2",
+                "react/promise-stream": "^1.4"
             },
             "type": "library",
             "autoload": {
@@ -2491,7 +2445,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v1.11.0"
+                "source": "https://github.com/reactphp/socket/tree/v1.12.0"
             },
             "funding": [
                 {
@@ -2503,7 +2457,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-14T10:14:32+00:00"
+            "time": "2022-08-25T12:32:25+00:00"
         },
         {
             "name": "react/stream",
@@ -3178,16 +3132,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.1.3",
+            "version": "v6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "b042e16087d298d08c1f013ff505d16c12a3b1be"
+                "reference": "45d0f5bb8df7255651ca91c122fab604e776af03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/b042e16087d298d08c1f013ff505d16c12a3b1be",
-                "reference": "b042e16087d298d08c1f013ff505d16c12a3b1be",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/45d0f5bb8df7255651ca91c122fab604e776af03",
+                "reference": "45d0f5bb8df7255651ca91c122fab604e776af03",
                 "shasum": ""
             },
             "require": {
@@ -3254,7 +3208,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.1.3"
+                "source": "https://github.com/symfony/translation/tree/v6.1.4"
             },
             "funding": [
                 {
@@ -3270,7 +3224,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-20T13:46:29+00:00"
+            "time": "2022-08-02T16:17:38+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -3359,12 +3313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "100e4b47b4e366c4d9765855cbebd08897148600"
+                "reference": "2b8362e844b3722c055980472760f9d8a3c62210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/100e4b47b4e366c4d9765855cbebd08897148600",
-                "reference": "100e4b47b4e366c4d9765855cbebd08897148600",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/2b8362e844b3722c055980472760f9d8a3c62210",
+                "reference": "2b8362e844b3722c055980472760f9d8a3c62210",
                 "shasum": ""
             },
             "require": {
@@ -3372,7 +3326,6 @@
                 "discord/interactions": "^2.2",
                 "ext-json": "*",
                 "ext-zlib": "*",
-                "mollie/polyfill-libsodium": "^1.1",
                 "monolog/monolog": "^2.1 || ^3.0",
                 "nesbot/carbon": "^2.38",
                 "php": "^7.4|^8.0",
@@ -3423,7 +3376,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
                 "source": "https://github.com/discord-php/DiscordPHP/tree/master"
             },
-            "time": "2022-08-12T11:10:35+00:00"
+            "time": "2022-08-25T00:23:00+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3670,12 +3623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "af441d097578d6c938e44c5406f6598007561476"
+                "reference": "a35265bb1bad45da8c4289a683908ca2c951ba73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/af441d097578d6c938e44c5406f6598007561476",
-                "reference": "af441d097578d6c938e44c5406f6598007561476",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/a35265bb1bad45da8c4289a683908ca2c951ba73",
+                "reference": "a35265bb1bad45da8c4289a683908ca2c951ba73",
                 "shasum": ""
             },
             "require": {
@@ -3707,7 +3660,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-08-14T21:11:26+00:00"
+            "time": "2022-08-27T01:26:27+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3715,18 +3668,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "453cbbe4d19c37228ca0e3378a7cb24fa98135bb"
+                "reference": "b639c2992573bb1b6db5c3c3a842fc1cbe868af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/453cbbe4d19c37228ca0e3378a7cb24fa98135bb",
-                "reference": "453cbbe4d19c37228ca0e3378a7cb24fa98135bb",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/b639c2992573bb1b6db5c3c3a842fc1cbe868af6",
+                "reference": "b639c2992573bb1b6db5c3c3a842fc1cbe868af6",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0",
-                "react/event-loop": "^1.1",
-                "react/socket": "^1.5",
+                "react/event-loop": "^1.3",
+                "react/socket": "^1.11",
                 "react/stream": "^1.1"
             },
             "suggest": {
@@ -3754,7 +3707,7 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2022-07-02T15:58:46+00:00"
+            "time": "2022-08-21T05:47:25+00:00"
         },
         {
             "name": "wyrihaximus/composer-update-bin-autoload-path",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3b7957c55773b884c026075a5073368",
+    "content-hash": "fbf5ed0e2134230174f682c37396dda1",
     "packages": [
         {
             "name": "cakephp/core",
@@ -245,62 +245,6 @@
                 "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.1.4"
             },
             "time": "2022-08-21T01:34:25+00:00"
-        },
-        {
-            "name": "discord-php/slash",
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/discord-php/DiscordPHP-Slash.git",
-                "reference": "1a8517b9675f1a7b77075f96032adb15f23f3e06"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/1a8517b9675f1a7b77075f96032adb15f23f3e06",
-                "reference": "1a8517b9675f1a7b77075f96032adb15f23f3e06",
-                "shasum": ""
-            },
-            "require": {
-                "discord-php/http": "^8|^9",
-                "discord/interactions": "^1|^2",
-                "guzzlehttp/guzzle": "^7.2",
-                "monolog/monolog": "^2.2",
-                "php": ">=7.3|>=8.0",
-                "react/http": "^1.2",
-                "simplito/elliptic-php": "^1",
-                "symfony/options-resolver": "^5.2"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.18",
-                "symfony/var-dumper": "^5.2",
-                "team-reflex/discord-php": "^6"
-            },
-            "suggest": {
-                "kambo/httpmessage": "Required for hosting the command server behind a CGI/FPM server.",
-                "team-reflex/discord-php": "Provides an easier interface, where interactions are sent via websocket rather than a webhook."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Discord\\Slash\\": "src/Discord"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Cole",
-                    "email": "david.cole1340@gmail.com"
-                }
-            ],
-            "description": "HTTP server for Discord slash commands",
-            "support": {
-                "issues": "https://github.com/discord-php/DiscordPHP-Slash/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Slash/tree/v1.0.5"
-            },
-            "time": "2021-09-01T04:05:08+00:00"
         },
         {
             "name": "discord/interactions",
@@ -616,214 +560,6 @@
             "time": "2020-11-24T22:02:12+00:00"
         },
         {
-            "name": "guzzlehttp/guzzle",
-            "version": "7.4.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "1dd98b0564cb3f6bd16ce683cb755f94c10fbd82"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/1dd98b0564cb3f6bd16ce683cb755f94c10fbd82",
-                "reference": "1dd98b0564cb3f6bd16ce683cb755f94c10fbd82",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "guzzlehttp/promises": "^1.5",
-                "guzzlehttp/psr7": "^1.9 || ^2.4",
-                "php": "^7.2.5 || ^8.0",
-                "psr/http-client": "^1.0",
-                "symfony/deprecation-contracts": "^2.2 || ^3.0"
-            },
-            "provide": {
-                "psr/http-client-implementation": "1.0"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "ext-curl": "*",
-                "php-http/client-integration-tests": "^3.0",
-                "phpunit/phpunit": "^8.5.5 || ^9.3.5",
-                "psr/log": "^1.1 || ^2.0 || ^3.0"
-            },
-            "suggest": {
-                "ext-curl": "Required for CURL handler support",
-                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
-                "psr/log": "Required for using the Log middleware"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "7.4-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk",
-                    "homepage": "https://github.com/GrahamCampbell"
-                },
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Jeremy Lindblom",
-                    "email": "jeremeamia@gmail.com",
-                    "homepage": "https://github.com/jeremeamia"
-                },
-                {
-                    "name": "George Mponos",
-                    "email": "gmponos@gmail.com",
-                    "homepage": "https://github.com/gmponos"
-                },
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com",
-                    "homepage": "https://github.com/Nyholm"
-                },
-                {
-                    "name": "Márk Sági-Kazár",
-                    "email": "mark.sagikazar@gmail.com",
-                    "homepage": "https://github.com/sagikazarmark"
-                },
-                {
-                    "name": "Tobias Schultze",
-                    "email": "webmaster@tubo-world.de",
-                    "homepage": "https://github.com/Tobion"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "psr-18",
-                "psr-7",
-                "rest",
-                "web service"
-            ],
-            "support": {
-                "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.4.5"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-06-20T22:16:13+00:00"
-        },
-        {
-            "name": "guzzlehttp/promises",
-            "version": "1.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
-                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^4.4 || ^5.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk",
-                    "homepage": "https://github.com/GrahamCampbell"
-                },
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com",
-                    "homepage": "https://github.com/Nyholm"
-                },
-                {
-                    "name": "Tobias Schultze",
-                    "email": "webmaster@tubo-world.de",
-                    "homepage": "https://github.com/Tobion"
-                }
-            ],
-            "description": "Guzzle promises library",
-            "keywords": [
-                "promise"
-            ],
-            "support": {
-                "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.5.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-10-22T20:56:57+00:00"
-        },
-        {
             "name": "guzzlehttp/psr7",
             "version": "2.4.0",
             "source": {
@@ -940,27 +676,27 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "305444bc6fb6c89e490f4b34fa6e979584d7fa81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/305444bc6fb6c89e490f4b34fa6e979584d7fa81",
+                "reference": "305444bc6fb6c89e490f4b34fa6e979584d7fa81",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
-                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+                "php": ">=8.1",
+                "psr/log": "^2.0 || ^3.0"
             },
             "provide": {
-                "psr/log-implementation": "1.0.0 || 2.0.0 || 3.0.0"
+                "psr/log-implementation": "3.0.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "aws/aws-sdk-php": "^3.0",
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
@@ -969,13 +705,12 @@
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
-                "phpspec/prophecy": "^1.15",
-                "phpstan/phpstan": "^0.12.91",
-                "phpunit/phpunit": "^8.5.14",
-                "predis/predis": "^1.1 || ^2.0",
-                "rollbar/rollbar": "^1.3 || ^2 || ^3",
+                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.1",
+                "phpunit/phpunit": "^9.5.16",
+                "predis/predis": "^1.1",
                 "ruflin/elastica": "^7",
-                "swiftmailer/swiftmailer": "^5.3|^6.0",
                 "symfony/mailer": "^5.4 || ^6",
                 "symfony/mime": "^5.4 || ^6"
             },
@@ -998,7 +733,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.x-dev"
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
@@ -1026,7 +761,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/3.2.0"
             },
             "funding": [
                 {
@@ -1038,7 +773,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2022-07-24T12:00:55+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1191,58 +926,6 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
-        },
-        {
-            "name": "psr/http-client",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-client.git",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0 || ^8.0",
-                "psr/http-message": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Http\\Client\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP clients",
-            "homepage": "https://github.com/php-fig/http-client",
-            "keywords": [
-                "http",
-                "http-client",
-                "psr",
-                "psr-18"
-            ],
-            "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
-            },
-            "time": "2020-06-29T06:28:15+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -2603,153 +2286,6 @@
             "time": "2018-05-29T20:21:04+00:00"
         },
         {
-            "name": "simplito/bigint-wrapper-php",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simplito/bigint-wrapper-php.git",
-                "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simplito/bigint-wrapper-php/zipball/cf21ec76d33f103add487b3eadbd9f5033a25930",
-                "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BI\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Simplito Team",
-                    "email": "s.smyczynski@simplito.com",
-                    "homepage": "https://simplito.com"
-                }
-            ],
-            "description": "Common interface for php_gmp and php_bcmath modules",
-            "support": {
-                "issues": "https://github.com/simplito/bigint-wrapper-php/issues",
-                "source": "https://github.com/simplito/bigint-wrapper-php/tree/1.0.0"
-            },
-            "time": "2018-02-27T12:38:08+00:00"
-        },
-        {
-            "name": "simplito/bn-php",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simplito/bn-php.git",
-                "reference": "189167f940cdb681288a967b0f4d66de81adcd97"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simplito/bn-php/zipball/189167f940cdb681288a967b0f4d66de81adcd97",
-                "reference": "189167f940cdb681288a967b0f4d66de81adcd97",
-                "shasum": ""
-            },
-            "require": {
-                "simplito/bigint-wrapper-php": "~1.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BN\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Simplito Team",
-                    "email": "s.smyczynski@simplito.com",
-                    "homepage": "https://simplito.com"
-                }
-            ],
-            "description": "Big number implementation compatible with bn.js",
-            "support": {
-                "issues": "https://github.com/simplito/bn-php/issues",
-                "source": "https://github.com/simplito/bn-php/tree/1.1.3"
-            },
-            "time": "2022-08-12T18:58:14+00:00"
-        },
-        {
-            "name": "simplito/elliptic-php",
-            "version": "1.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simplito/elliptic-php.git",
-                "reference": "a6228f480c729cf8efe2650a617c8500e981716d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simplito/elliptic-php/zipball/a6228f480c729cf8efe2650a617c8500e981716d",
-                "reference": "a6228f480c729cf8efe2650a617c8500e981716d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-gmp": "*",
-                "simplito/bn-php": "~1.1.0"
-            },
-            "require-dev": {
-                "phpbench/phpbench": "@dev",
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Elliptic\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Simplito Team",
-                    "email": "s.smyczynski@simplito.com",
-                    "homepage": "https://simplito.com"
-                }
-            ],
-            "description": "Fast elliptic curve cryptography",
-            "homepage": "https://github.com/simplito/elliptic-php",
-            "keywords": [
-                "Curve25519",
-                "ECDSA",
-                "Ed25519",
-                "EdDSA",
-                "cryptography",
-                "curve",
-                "curve25519-weier",
-                "ecc",
-                "ecdh",
-                "elliptic",
-                "nistp192",
-                "nistp224",
-                "nistp256",
-                "nistp384",
-                "nistp521",
-                "secp256k1"
-            ],
-            "support": {
-                "issues": "https://github.com/simplito/elliptic-php/issues",
-                "source": "https://github.com/simplito/elliptic-php/tree/1.0.10"
-            },
-            "time": "2022-08-12T19:00:25+00:00"
-        },
-        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.1.1",
             "source": {
@@ -2818,23 +2354,21 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.4.11",
+            "version": "v6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "54f14e36aa73cb8f7261d7686691fd4d75ea2690"
+                "reference": "a3016f5442e28386ded73c43a32a5b68586dd1c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/54f14e36aa73cb8f7261d7686691fd4d75ea2690",
-                "reference": "54f14e36aa73cb8f7261d7686691fd4d75ea2690",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/a3016f5442e28386ded73c43a32a5b68586dd1c4",
+                "reference": "a3016f5442e28386ded73c43a32a5b68586dd1c4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
-                "symfony/deprecation-contracts": "^2.1|^3",
-                "symfony/polyfill-php73": "~1.0",
-                "symfony/polyfill-php80": "^1.16"
+                "php": ">=8.1",
+                "symfony/deprecation-contracts": "^2.1|^3"
             },
             "type": "library",
             "autoload": {
@@ -2867,7 +2401,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v5.4.11"
+                "source": "https://github.com/symfony/options-resolver/tree/v6.1.0"
             },
             "funding": [
                 {
@@ -2883,7 +2417,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-20T13:00:38+00:00"
+            "time": "2022-02-25T11:15:52+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2951,85 +2485,6 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.26.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-05-24T11:49:31+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php73",
-            "version": "v1.26.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/e440d35fa0286f77fb45b79a03fedbeda9307e85",
-                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.26-dev"
-                },
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php73\\": ""
-                },
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.26.0"
             },
             "funding": [
                 {
@@ -3623,12 +3078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "a35265bb1bad45da8c4289a683908ca2c951ba73"
+                "reference": "8cb932b4bbe676a6c5e8d7a3780f72154a59e44a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/a35265bb1bad45da8c4289a683908ca2c951ba73",
-                "reference": "a35265bb1bad45da8c4289a683908ca2c951ba73",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/8cb932b4bbe676a6c5e8d7a3780f72154a59e44a",
+                "reference": "8cb932b4bbe676a6c5e8d7a3780f72154a59e44a",
                 "shasum": ""
             },
             "require": {
@@ -3660,7 +3115,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-08-27T01:26:27+00:00"
+            "time": "2022-08-27T02:32:50+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

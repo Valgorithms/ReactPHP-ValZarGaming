@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbf5ed0e2134230174f682c37396dda1",
+    "content-hash": "5214fef66fe6e24bdb9c3cb422642231",
     "packages": [
         {
             "name": "cakephp/core",
@@ -121,79 +121,6 @@
                 "source": "https://github.com/cakephp/utility"
             },
             "time": "2022-08-19T06:02:03+00:00"
-        },
-        {
-            "name": "clue/zlib-react",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/clue/reactphp-zlib.git",
-                "reference": "e3ef9c03074f4a648b27e2eebd735fd2a64c3905"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/clue/reactphp-zlib/zipball/e3ef9c03074f4a648b27e2eebd735fd2a64c3905",
-                "reference": "e3ef9c03074f4a648b27e2eebd735fd2a64c3905",
-                "shasum": ""
-            },
-            "require": {
-                "ext-zlib": "*",
-                "php": ">=7.0",
-                "react/stream": "^1.0 || ^0.7 || ^0.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3 || ^6.5",
-                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3"
-            },
-            "suggest": {
-                "ext-zlib": "Requires ext-zlib extension"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Clue\\React\\Zlib\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christian Lück",
-                    "email": "christian@clue.engineering"
-                }
-            ],
-            "description": "Streaming zlib compressor and decompressor for ReactPHP, supporting compression and decompression of GZIP, ZLIB and raw DEFLATE formats.",
-            "homepage": "https://github.com/clue/reactphp-zlib",
-            "keywords": [
-                "RFC 1950",
-                "RFC 1951",
-                "RFC 1952",
-                "compression",
-                "decompression",
-                "deflate",
-                "gz",
-                "gzip",
-                "inflate",
-                "reactphp",
-                "zlib"
-            ],
-            "support": {
-                "issues": "https://github.com/clue/reactphp-zlib/issues",
-                "source": "https://github.com/clue/reactphp-zlib/tree/v1.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://clue.engineering/support",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-12-21T15:54:21+00:00"
         },
         {
             "name": "discord-php/http",
@@ -3082,12 +3009,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "f24966f5ae8b231723dcafda615c9d0f2087db11"
+                "reference": "5b608bab0e8c1655a64879cd36d82fa37302bd28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/f24966f5ae8b231723dcafda615c9d0f2087db11",
-                "reference": "f24966f5ae8b231723dcafda615c9d0f2087db11",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/5b608bab0e8c1655a64879cd36d82fa37302bd28",
+                "reference": "5b608bab0e8c1655a64879cd36d82fa37302bd28",
                 "shasum": ""
             },
             "require": {
@@ -3119,7 +3046,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-08-29T04:16:55+00:00"
+            "time": "2022-08-30T18:51:26+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",

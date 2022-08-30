@@ -1,8 +1,7 @@
 {
 	"require": {
         "php": "^8.0.0",
-		"vzgcoders/palace": "dev-master",
-		"clue/zlib-react": "^1.1"
+		"vzgcoders/palace": "dev-master"
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true

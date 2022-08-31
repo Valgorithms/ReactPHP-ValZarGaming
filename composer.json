@@ -4,5 +4,10 @@
 		"vzgcoders/palace": "dev-master"
     },
 	"minimum-stability": "dev",
-	"prefer-stable": true
+	"prefer-stable": true,
+	"config": {
+		"allow-plugins": {
+			"wyrihaximus/composer-update-bin-autoload-path": true
+		}
+	}
 }

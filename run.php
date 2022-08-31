@@ -24,9 +24,9 @@ $discord_options = array(
     'token' => $token,
     'loop' => $loop,
     //'cacheInterface' => $cache,
-    'socket_options' => [
+    /*'socket_options' => [
         'dns' => '8.8.8.8', // can change dns
-    ],
+    ],*/
     'loadAllMembers' => true,
     'storeMessages' => true,
     'logger' => $logger,

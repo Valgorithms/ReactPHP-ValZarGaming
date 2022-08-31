@@ -123,6 +123,122 @@
             "time": "2022-08-19T06:02:03+00:00"
         },
         {
+            "name": "clue/redis-protocol",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/php-redis-protocol.git",
+                "reference": "271b8009887209d930f613ad3b9518f94bd6b51c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/php-redis-protocol/zipball/271b8009887209d930f613ad3b9518f94bd6b51c",
+                "reference": "271b8009887209d930f613ad3b9518f94bd6b51c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Clue\\Redis\\Protocol": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "A streaming redis wire protocol parser and serializer implementation in PHP",
+            "homepage": "https://github.com/clue/php-redis-protocol",
+            "keywords": [
+                "parser",
+                "protocol",
+                "redis",
+                "serializer",
+                "streaming"
+            ],
+            "support": {
+                "issues": "https://github.com/clue/php-redis-protocol/issues",
+                "source": "https://github.com/clue/php-redis-protocol/tree/v0.3.1"
+            },
+            "time": "2017-06-06T16:07:10+00:00"
+        },
+        {
+            "name": "clue/redis-react",
+            "version": "v2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/reactphp-redis.git",
+                "reference": "f911455f9d7a77dd6f39c22548ddff521544b291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/reactphp-redis/zipball/f911455f9d7a77dd6f39c22548ddff521544b291",
+                "reference": "f911455f9d7a77dd6f39c22548ddff521544b291",
+                "shasum": ""
+            },
+            "require": {
+                "clue/redis-protocol": "0.3.*",
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3",
+                "react/event-loop": "^1.2",
+                "react/promise": "^2.0 || ^1.1",
+                "react/promise-timer": "^1.8",
+                "react/socket": "^1.9"
+            },
+            "require-dev": {
+                "clue/block-react": "^1.1",
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clue\\React\\Redis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering"
+                }
+            ],
+            "description": "Async Redis client implementation, built on top of ReactPHP.",
+            "homepage": "https://github.com/clue/reactphp-redis",
+            "keywords": [
+                "async",
+                "client",
+                "database",
+                "reactphp",
+                "redis"
+            ],
+            "support": {
+                "issues": "https://github.com/clue/reactphp-redis/issues",
+                "source": "https://github.com/clue/reactphp-redis/tree/v2.6.0"
+            },
+            "funding": [
+                {
+                    "url": "https://clue.engineering/support",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-05-09T09:50:02+00:00"
+        },
+        {
             "name": "discord-php/http",
             "version": "v10.1.3",
             "source": {
@@ -3071,19 +3187,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "e3b01fe15229b3e772acd525d173e985aded8694"
+                "reference": "316feeeaa7dddaffe80522dae9c9de1953d1976a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/e3b01fe15229b3e772acd525d173e985aded8694",
-                "reference": "e3b01fe15229b3e772acd525d173e985aded8694",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/316feeeaa7dddaffe80522dae9c9de1953d1976a",
+                "reference": "316feeeaa7dddaffe80522dae9c9de1953d1976a",
                 "shasum": ""
             },
             "require": {
+                "clue/redis-react": "^2.6",
                 "php": "^8.0.0",
                 "react/filesystem": "^0.1.1",
                 "team-reflex/discord-php": "dev-cacheInterface",
-                "vzgcoders/twitchphp": "dev-main"
+                "vzgcoders/twitchphp": "dev-main",
+                "wyrihaximus/react-cache-redis": "^4.2.0"
             },
             "suggest": {
                 "ext-event": "For a faster, and more performant loop",
@@ -3108,7 +3226,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-08-31T16:25:21+00:00"
+            "time": "2022-08-31T18:20:29+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3474,6 +3592,60 @@
                 }
             ],
             "time": "2020-11-25T11:27:40+00:00"
+        },
+        {
+            "name": "wyrihaximus/react-cache-redis",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/reactphp-cache-redis.git",
+                "reference": "a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-cache-redis/zipball/a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70",
+                "reference": "a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70",
+                "shasum": ""
+            },
+            "require": {
+                "clue/redis-react": "^2.3",
+                "evenement/evenement": "^3.0",
+                "php": "^8 || ^7.4",
+                "react/cache": "^1.1.1",
+                "react/promise": "^2.8",
+                "thecodingmachine/safe": "^1.3"
+            },
+            "require-dev": {
+                "wyrihaximus/async-test-utilities": "^3.4.20"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\React\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "description": "Redis cache for react/cache",
+            "support": {
+                "issues": "https://github.com/WyriHaximus/reactphp-cache-redis/issues",
+                "source": "https://github.com/WyriHaximus/reactphp-cache-redis/tree/4.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-23T20:41:50+00:00"
         },
         {
             "name": "wyrihaximus/react-child-process-messenger",

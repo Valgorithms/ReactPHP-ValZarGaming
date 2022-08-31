@@ -124,16 +124,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v9.1.4",
+            "version": "v10.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "6f747570fe7f46d1a5f88bac6d7f686dd05222e1"
+                "reference": "261d7073bc31239f18c2805e811b704f4aa3b2e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/6f747570fe7f46d1a5f88bac6d7f686dd05222e1",
-                "reference": "6f747570fe7f46d1a5f88bac6d7f686dd05222e1",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/261d7073bc31239f18c2805e811b704f4aa3b2e8",
+                "reference": "261d7073bc31239f18c2805e811b704f4aa3b2e8",
                 "shasum": ""
             },
             "require": {
@@ -169,9 +169,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.1.4"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.1.3"
             },
-            "time": "2022-08-21T01:34:25+00:00"
+            "time": "2022-08-05T15:32:14+00:00"
         },
         {
             "name": "discord/interactions",
@@ -1172,6 +1172,84 @@
             "time": "2021-12-09T23:20:49+00:00"
         },
         {
+            "name": "react/async",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/async.git",
+                "reference": "2aa8d89057e1059f59666e4204100636249b7be0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/async/zipball/2aa8d89057e1059f59666e4204100636249b7be0",
+                "reference": "2aa8d89057e1059f59666e4204100636249b7be0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "react/event-loop": "^1.2",
+                "react/promise": "^3.0 || ^2.8 || ^1.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "React\\Async\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
+                }
+            ],
+            "description": "Async utilities and fibers for ReactPHP",
+            "keywords": [
+                "async",
+                "reactphp"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/async/issues",
+                "source": "https://github.com/reactphp/async/tree/v4.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-07-11T14:21:02+00:00"
+        },
+        {
             "name": "react/cache",
             "version": "v1.1.1",
             "source": {
@@ -1328,28 +1406,28 @@
         },
         {
             "name": "react/datagram",
-            "version": "v1.5.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/datagram.git",
-                "reference": "e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff"
+                "reference": "40f2c39f83541367018605a73b57c99186f7145c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/datagram/zipball/e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff",
-                "reference": "e4c5bf8daf44630f0a938f40fe2104b2b76ad2ff",
+                "url": "https://api.github.com/repos/reactphp/datagram/zipball/40f2c39f83541367018605a73b57c99186f7145c",
+                "reference": "40f2c39f83541367018605a73b57c99186f7145c",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3",
-                "react/dns": "^1.0 || ^0.4.13",
-                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
+                "react/dns": "^1.7",
+                "react/event-loop": "^1.2",
                 "react/promise": "~2.1|~1.2"
             },
             "require-dev": {
                 "clue/block-react": "~1.0",
-                "phpunit/phpunit": "^5.0 || ^4.8"
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -1364,7 +1442,23 @@
             "authors": [
                 {
                     "name": "Christian Lück",
-                    "email": "christian@lueck.tv"
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
                 }
             ],
             "description": "Event-driven UDP datagram socket client and server for ReactPHP",
@@ -1381,9 +1475,19 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/datagram/issues",
-                "source": "https://github.com/reactphp/datagram/tree/v1.5.0"
+                "source": "https://github.com/reactphp/datagram/tree/v1.8.0"
             },
-            "time": "2019-07-10T10:04:15+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-07-11T13:06:40+00:00"
         },
         {
             "name": "react/dns",
@@ -1699,50 +1803,6 @@
                 }
             ],
             "time": "2022-08-23T12:31:28+00:00"
-        },
-        {
-            "name": "react/partial",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/friends-of-reactphp/partial.git",
-                "reference": "e06f034747561977670607888e0a99fd282308ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/friends-of-reactphp/partial/zipball/e06f034747561977670607888e0a99fd282308ab",
-                "reference": "e06f034747561977670607888e0a99fd282308ab",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
-                "psr-4": {
-                    "React\\Partial\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Partial function application.",
-            "keywords": [
-                "functional-programming",
-                "partial"
-            ],
-            "support": {
-                "issues": "https://github.com/friends-of-reactphp/partial/issues",
-                "source": "https://github.com/friends-of-reactphp/partial/tree/v3.0.0"
-            },
-            "time": "2017-10-01T13:27:11+00:00"
         },
         {
             "name": "react/promise",
@@ -2695,39 +2755,42 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "dev-master",
+            "version": "dev-cacheInterface",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "2b8362e844b3722c055980472760f9d8a3c62210"
+                "reference": "3d88a41038bd70218f2f29e2eedfead05f9476e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/2b8362e844b3722c055980472760f9d8a3c62210",
-                "reference": "2b8362e844b3722c055980472760f9d8a3c62210",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/3d88a41038bd70218f2f29e2eedfead05f9476e1",
+                "reference": "3d88a41038bd70218f2f29e2eedfead05f9476e1",
                 "shasum": ""
             },
             "require": {
-                "discord-php/http": "^9.0.12",
+                "discord-php/http": "^10.1.3",
                 "discord/interactions": "^2.2",
                 "ext-json": "*",
                 "ext-zlib": "*",
-                "monolog/monolog": "^2.1 || ^3.0",
+                "monolog/monolog": "^2.1.1 || ^3.0",
                 "nesbot/carbon": "^2.38",
                 "php": "^7.4|^8.0",
                 "ratchet/pawl": "^0.4.1",
-                "react/child-process": "^0.6.2",
-                "react/datagram": "1.5.*",
-                "react/http": "^1.1",
-                "react/partial": "^3.0",
-                "symfony/options-resolver": "^5.1.3 || ^6.0",
+                "react/async": "^4.0 || ^3.0",
+                "react/cache": "^0.5 || ^0.6 || ^1.0",
+                "react/child-process": "^0.6.3",
+                "react/datagram": "^1.8",
+                "react/event-loop": "^1.2",
+                "symfony/options-resolver": "^5.1.11 || ^6.0",
                 "trafficcophp/bytebuffer": "^0.3"
             },
             "require-dev": {
                 "davidcole1340/reactsh": "dev-master",
                 "friendsofphp/php-cs-fixer": "^3",
-                "phpunit/phpunit": "^9.4",
-                "symfony/var-dumper": "*"
+                "phpunit/phpunit": "^9.4.4",
+                "seregazhuk/react-cache-memcached": "^1.0",
+                "symfony/var-dumper": "*",
+                "wyrihaximus/react-cache-redis": "^3.0 || ^4.0"
             },
             "suggest": {
                 "clue/zlib-react": "For gateway message transport compression with zlib-stream.",
@@ -2737,7 +2800,6 @@
                 "ext-mbstring": "For accurate calculations of string length when handling non-english characters.",
                 "ext-uv": "For a faster, and more performant loop. Preferred."
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -2760,9 +2822,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/master"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/cacheInterface"
             },
-            "time": "2022-08-25T00:23:00+00:00"
+            "time": "2022-08-31T16:48:55+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -3009,18 +3071,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "92529cd0bed67174db13fd35ceda5c7a3936152c"
+                "reference": "e3b01fe15229b3e772acd525d173e985aded8694"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/92529cd0bed67174db13fd35ceda5c7a3936152c",
-                "reference": "92529cd0bed67174db13fd35ceda5c7a3936152c",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/e3b01fe15229b3e772acd525d173e985aded8694",
+                "reference": "e3b01fe15229b3e772acd525d173e985aded8694",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0.0",
                 "react/filesystem": "^0.1.1",
-                "team-reflex/discord-php": "dev-master",
+                "team-reflex/discord-php": "dev-cacheInterface",
                 "vzgcoders/twitchphp": "dev-main"
             },
             "suggest": {
@@ -3046,7 +3108,7 @@
                 "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
                 "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
             },
-            "time": "2022-08-31T07:12:14+00:00"
+            "time": "2022-08-31T16:25:21+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3684,5 +3746,5 @@
         "php": "^8.0.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

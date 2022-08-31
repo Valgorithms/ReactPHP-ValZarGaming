@@ -16,14 +16,17 @@ require __DIR__ .'/../secret.php'; //$secret
 require __DIR__ . '/../token.php'; //$token
 
 $loop = React\EventLoop\Factory::create();
+//$redis = (new Clue\React\Redis\Factory($loop))->createLazyClient('192.168.1.175:6379');
+//$cache = new Redis($redis, 'dphp:cache:'); // prefix is "dphp:cache"
 $logger = new Monolog\Logger('New logger');
 $logger->pushHandler(new Monolog\Handler\StreamHandler('php://stdout'));
 $discord_options = array(
+    'token' => $token,
     'loop' => $loop,
+    //'cacheInterface' => $cache,
     'socket_options' => [
         'dns' => '8.8.8.8', // can change dns
     ],
-    'token' => $token,
     'loadAllMembers' => true,
     'storeMessages' => true,
     'logger' => $logger,

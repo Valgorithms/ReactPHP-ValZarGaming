@@ -151,7 +151,7 @@ $options = array(
 $valzargaming = new ValZarGaming\ValZarGaming($options);
 
 $discord->getLoop()->addTimer(86400, function() {
-    exit();
+    //exit();
 });
 
 echo 'cwd: ' . getcwd() . PHP_EOL;

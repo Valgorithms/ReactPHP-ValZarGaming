@@ -31,7 +31,7 @@ $discord_options = array(
     'loadAllMembers' => true,
     'storeMessages' => true,
     'logger' => $logger,
-    'intents' => \Discord\WebSockets\Intents::getDefaultIntents() | \Discord\WebSockets\Intents::GUILD_MEMBERS, // default intents as well as guild members
+    'intents' => Discord\WebSockets\Intents::getDefaultIntents() | Discord\WebSockets\Intents::GUILD_MEMBERS | Discord\WebSockets\Intents::MESSAGE_CONTENT // default intents as well as guild members
 );
 $discord = new Discord\Discord($discord_options);
 $browser = new \React\Http\Browser($discord->getLoop()/*, $connector*/);

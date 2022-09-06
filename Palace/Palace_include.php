@@ -60,7 +60,8 @@ function webapiSnow($string) {
 	return preg_match('/^[0-9]{16,18}$/', $string);
 }
 $GLOBALS['querycount'] = 0;
-$webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerRequestInterface $request) use ($discord) {
+$external_ip = file_get_contents('http://ipecho.net/plain');
+$webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerRequestInterface $request) use ($discord, $external_ip) {
 	$path = explode('/', $request->getUri()->getPath()); var_dump($request->getUri()->getPath()); echo PHP_EOL;
 	$sub = (isset($path[1]) ? (string) $path[1] : false);
 	$id = (isset($path[2]) ? (string) $path[2] : false);
@@ -68,13 +69,27 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 	$ip = (isset($path[4]) ? (string) $path[4] : false);
 	$idarray = array(); //get from post data
 	
-	if ($ip) echo '[REQUESTING IP] ' . $ip . PHP_EOL ;
-	if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0')
-		echo "[REMOTE_ADDR]" . $request->getServerParams()['REMOTE_ADDR'].PHP_EOL;
+	if ($ip) echo '[REQUESTING IP] ' . $ip . PHP_EOL;
+    $substr_whitelist = ['10.0.0.', '192.168.']; 
+    $whitelist = [$external_ip, '127.0.0.1'];
+    $whitelisted = false;
+    foreach ($substr_whitelist as $substr) if (substr($request->getServerParams()['REMOTE_ADDR'], 0, strlen($substr) == $substr)) $whitelisted = true;
+    if (in_array($request->getServerParams()['REMOTE_ADDR'], $whitelist)) $whitelisted = true;
+    
+	echo '[WEBAPI] ' . $request->getServerParams()['REMOTE_ADDR'].PHP_EOL;
 	$GLOBALS['querycount'] = $GLOBALS['querycount'] + 1;
 	echo 'querycount:' . $GLOBALS['querycount'] . PHP_EOL;
 	//logInfo('[webapi] Request', ['path' => $path]);
 	switch ($sub) {
+        case 'botlog':
+            if (!$whitelisted) {
+                echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
+                return new \React\Http\Message\Response(501, ['Content-Type' => 'text/plain'], 'Reject');
+            }
+            if ($return = file_get_contents('botlog.txt')) return new \React\Http\Message\Response(200, ['Content-Type' => 'text/plain'], $return);
+            else return new \React\Http\Message\Response(501, ['Content-Type' => 'text/plain'], "Unable to access `botlog.txt`");
+            break;
+            
 		case 'channel':
 			if (!$id || !webapiSnow($id) || !$return = $discord->getChannel($id))
 				return webapiFail('channel_id', $id);
@@ -140,7 +155,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 			break;
 
 		case 'restart':
-			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') { //Restricted for obvious reasons
+			if (!$whitelisted) {
 				echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
 				return new \GuzzleHttp\Psr7\Response(501, ['Content-Type' => 'text/plain'], 'Reject'.PHP_EOL);
 			}
@@ -150,7 +165,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 			break;
 
 		case 'lookup':
-			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') {
+			if (!$whitelisted) {
 				echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
 				return new \GuzzleHttp\Psr7\Response(501, ['Content-Type' => 'text/plain'], 'Reject'.PHP_EOL);
 			}
@@ -159,7 +174,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 			break;
 
 		case 'owner':
-			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') {
+			if (!$whitelisted) {
 				echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
 				return new \GuzzleHttp\Psr7\Response(501, ['Content-Type' => 'text/plain'], 'Reject'.PHP_EOL);
 			}
@@ -177,7 +192,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
 			break;
 
 		case 'whitelist':
-			if (substr($request->getServerParams()['REMOTE_ADDR'], 0, 6) != '10.0.0') {
+			if (!$whitelisted) {
 				echo '[REJECT]' . $request->getServerParams()['REMOTE_ADDR'] . PHP_EOL;
 				return new \GuzzleHttp\Psr7\Response(501, ['Content-Type' => 'text/plain'], 'Reject'.PHP_EOL);
 			}

@@ -73,7 +73,7 @@ $webapi = new \React\Http\Server($loop, function (\Psr\Http\Message\ServerReques
     $substr_whitelist = ['10.0.0.', '192.168.']; 
     $whitelist = [$external_ip, '127.0.0.1'];
     $whitelisted = false;
-    foreach ($substr_whitelist as $substr) if (substr($request->getServerParams()['REMOTE_ADDR'], 0, strlen($substr) == $substr)) $whitelisted = true;
+    foreach ($substr_whitelist as $substr) if (str_starts_with($request->getServerParams()['REMOTE_ADDR'], $substr)) $whitelisted = true;
     if (in_array($request->getServerParams()['REMOTE_ADDR'], $whitelist)) $whitelisted = true;
     
 	echo '[WEBAPI] ' . $request->getServerParams()['REMOTE_ADDR'].PHP_EOL;

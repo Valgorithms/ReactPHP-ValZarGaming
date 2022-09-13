@@ -33,7 +33,7 @@ $discord_options = array(
     'logger' => $logger,
     'intents' => Discord\WebSockets\Intents::getDefaultIntents() | Discord\WebSockets\Intents::GUILD_MEMBERS | Discord\WebSockets\Intents::MESSAGE_CONTENT // default intents as well as guild members
 );
-$discord = new Discord\Discord($discord_options);
+$discord = new \Discord\Discord($discord_options);
 $browser = new \React\Http\Browser($discord->getLoop()/*, $connector*/);
 include __DIR__ . '/vendor/vzgcoders/palace/stats_object.php';
 $stats = new Stats();

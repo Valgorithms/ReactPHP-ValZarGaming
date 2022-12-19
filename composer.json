@@ -1,7 +1,7 @@
 {
 	"require": {
         "php": "^8.0.0",
-		"vzgcoders/palace": "dev-master"
+		"vzgcoders/tutelar-revived": "dev-master"
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true,

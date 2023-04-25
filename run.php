@@ -16,14 +16,13 @@ require __DIR__ .'/../secret.php'; //$secret
 require __DIR__ . '/../token.php'; //$token
 
 $loop = React\EventLoop\Factory::create();
-$redis = (new Clue\React\Redis\Factory($loop))->createLazyClient('127.0.0.1:6379');
-$cache = new WyriHaximus\React\Cache\Redis($redis, 'dphp:cache:'); // prefix is "dphp:cache"
-$logger = new Monolog\Logger('New logger');
-$logger->pushHandler(new Monolog\Handler\StreamHandler('php://stdout'));
+$streamHandler = new Monolog\Handler\StreamHandler('php://stdout', Monolog\Level::Debug);
+$streamHandler->setFormatter(new Monolog\Formatter\LineFormatter(null, null, true, true));
+$logger = new Monolog\Logger('Tutelar', [$streamHandler]);
 $discord_options = array(
     'token' => $token,
     'loop' => $loop,
-    'cacheInterface' => $cache,
+	'cache' => new \Discord\Helpers\CacheConfig($interface = new WyriHaximus\React\Cache\Redis((new Clue\React\Redis\Factory($loop))->createLazyClient('127.0.0.1:6379'), 'dphp:cache:'), $compress = true, $sweep = false),
     'cacheSweep' => false, //Don't periodically wipe the in-memory cache in case something happens to Redis
     /*'socket_options' => [
         'dns' => '8.8.8.8', // can change dns

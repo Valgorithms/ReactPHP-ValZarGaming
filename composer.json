@@ -1,7 +1,8 @@
 {
 	"require": {
         "php": "^8.0.0",
-		"vzgcoders/tutelar-revived": "dev-master"
+		"vzgcoders/tutelar-revived": "dev-main",
+		"guzzlehttp/psr7": "2.4.5"
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true,

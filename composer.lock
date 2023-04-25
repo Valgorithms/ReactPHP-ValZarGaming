@@ -4,124 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5214fef66fe6e24bdb9c3cb422642231",
+    "content-hash": "a717304471e171b6a120b661f71be670",
     "packages": [
-        {
-            "name": "cakephp/core",
-            "version": "4.4.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cakephp/core.git",
-                "reference": "20e50de2f461b5983a1a1296fe5c3762857b9edd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/20e50de2f461b5983a1a1296fe5c3762857b9edd",
-                "reference": "20e50de2f461b5983a1a1296fe5c3762857b9edd",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/utility": "^4.0",
-                "php": ">=7.4.0"
-            },
-            "suggest": {
-                "cakephp/cache": "To use Configure::store() and restore().",
-                "cakephp/event": "To use PluginApplicationInterface or plugin applications.",
-                "league/container": "To use Container and ServiceProvider classes"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "functions.php"
-                ],
-                "psr-4": {
-                    "Cake\\Core\\": "."
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/core/graphs/contributors"
-                }
-            ],
-            "description": "CakePHP Framework Core classes",
-            "homepage": "https://cakephp.org",
-            "keywords": [
-                "cakephp",
-                "core",
-                "framework"
-            ],
-            "support": {
-                "forum": "https://stackoverflow.com/tags/cakephp",
-                "irc": "irc://irc.freenode.org/cakephp",
-                "issues": "https://github.com/cakephp/cakephp/issues",
-                "source": "https://github.com/cakephp/core"
-            },
-            "time": "2022-10-07T16:40:13+00:00"
-        },
-        {
-            "name": "cakephp/utility",
-            "version": "4.4.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cakephp/utility.git",
-                "reference": "a3fb57b8da981bb549ce02c0438ab5743053dd45"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/utility/zipball/a3fb57b8da981bb549ce02c0438ab5743053dd45",
-                "reference": "a3fb57b8da981bb549ce02c0438ab5743053dd45",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/core": "^4.0",
-                "php": ">=7.4.0"
-            },
-            "suggest": {
-                "ext-intl": "To use Text::transliterate() or Text::slug()",
-                "lib-ICU": "To use Text::transliterate() or Text::slug()"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Cake\\Utility\\": "."
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/utility/graphs/contributors"
-                }
-            ],
-            "description": "CakePHP Utility classes such as Inflector, String, Hash, and Security",
-            "homepage": "https://cakephp.org",
-            "keywords": [
-                "cakephp",
-                "hash",
-                "inflector",
-                "security",
-                "string",
-                "utility"
-            ],
-            "support": {
-                "forum": "https://stackoverflow.com/tags/cakephp",
-                "irc": "irc://irc.freenode.org/cakephp",
-                "issues": "https://github.com/cakephp/cakephp/issues",
-                "source": "https://github.com/cakephp/utility"
-            },
-            "time": "2022-10-10T18:01:10+00:00"
-        },
         {
             "name": "clue/redis-protocol",
             "version": "v0.3.1",
@@ -240,28 +124,31 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v10.1.5",
+            "version": "v10.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "d6d41c006467c23eeaf1c90008e377cbf8dfca7e"
+                "reference": "80d2be2f12efbe4ccabd104e4e032ed8dbfc9688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/d6d41c006467c23eeaf1c90008e377cbf8dfca7e",
-                "reference": "d6d41c006467c23eeaf1c90008e377cbf8dfca7e",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/80d2be2f12efbe4ccabd104e4e032ed8dbfc9688",
+                "reference": "80d2be2f12efbe4ccabd104e4e032ed8dbfc9688",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0",
+                "php": "^7.4|^8.0",
                 "psr/log": "^1.1 || ^2.0 || ^3.0",
                 "react/http": "^1.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.17",
                 "guzzlehttp/guzzle": "^6.0|^7.0",
+                "mockery/mockery": "^1.5",
                 "monolog/monolog": "^2.2",
-                "psy/psysh": "^0.10.6"
+                "phpunit/phpunit": "^9.5",
+                "psy/psysh": "^0.10.6",
+                "react/async": "^4 || ^3"
             },
             "suggest": {
                 "guzzlehttp/guzzle": "For alternative to ReactPHP/Http Browser"
@@ -269,7 +156,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Discord\\Http\\": "src/Discord"
+                    "Discord\\Http\\": "src/Discord",
+                    "Tests\\Discord\\Http\\": "tests/Discord"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -285,9 +173,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.1.5"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.2.0"
             },
-            "time": "2022-09-13T10:06:57+00:00"
+            "time": "2023-04-21T12:53:49+00:00"
         },
         {
             "name": "discord/interactions",
@@ -337,167 +225,6 @@
                 "source": "https://github.com/discord/discord-interactions-php/tree/2.2.0"
             },
             "time": "2022-02-09T17:58:51+00:00"
-        },
-        {
-            "name": "doctrine/inflector",
-            "version": "2.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/inflector.git",
-                "reference": "d9d313a36c872fd6ee06d9a6cbcf713eaa40f024"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/d9d313a36c872fd6ee06d9a6cbcf713eaa40f024",
-                "reference": "d9d313a36c872fd6ee06d9a6cbcf713eaa40f024",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2 || ^8.0"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^10",
-                "phpstan/phpstan": "^1.8",
-                "phpstan/phpstan-phpunit": "^1.1",
-                "phpstan/phpstan-strict-rules": "^1.3",
-                "phpunit/phpunit": "^8.5 || ^9.5",
-                "vimeo/psalm": "^4.25"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
-            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
-            "keywords": [
-                "inflection",
-                "inflector",
-                "lowercase",
-                "manipulation",
-                "php",
-                "plural",
-                "singular",
-                "strings",
-                "uppercase",
-                "words"
-            ],
-            "support": {
-                "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/2.0.6"
-            },
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-10-20T09:10:12+00:00"
-        },
-        {
-            "name": "doctrine/instantiator",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/10dcfce151b967d20fde1b34ae6640712c3891bc",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1 || ^8.0"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^9",
-                "ext-pdo": "*",
-                "ext-phar": "*",
-                "phpbench/phpbench": "^0.16 || ^1",
-                "phpstan/phpstan": "^1.4",
-                "phpstan/phpstan-phpunit": "^1",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.22"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "homepage": "https://ocramius.github.io/"
-                }
-            ],
-            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
-            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
-            "keywords": [
-                "constructor",
-                "instantiate"
-            ],
-            "support": {
-                "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/1.4.1"
-            },
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-03-03T08:28:38+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -604,16 +331,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.3",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d"
+                "reference": "0454e12ef0cd597ccd2adb036f7bda4e7fface66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/67c26b443f348a51926030c83481b85718457d3d",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/0454e12ef0cd597ccd2adb036f7bda4e7fface66",
+                "reference": "0454e12ef0cd597ccd2adb036f7bda4e7fface66",
                 "shasum": ""
             },
             "require": {
@@ -639,9 +366,6 @@
                 "bamarni-bin": {
                     "bin-links": true,
                     "forward-command": false
-                },
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -703,7 +427,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.4.5"
             },
             "funding": [
                 {
@@ -719,20 +443,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-26T14:07:24+00:00"
+            "time": "2023-04-17T16:00:45+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "3.2.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "305444bc6fb6c89e490f4b34fa6e979584d7fa81"
+                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/305444bc6fb6c89e490f4b34fa6e979584d7fa81",
-                "reference": "305444bc6fb6c89e490f4b34fa6e979584d7fa81",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/9b5daeaffce5b926cac47923798bba91059e60e2",
+                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2",
                 "shasum": ""
             },
             "require": {
@@ -747,16 +471,16 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
-                "guzzlehttp/guzzle": "^7.4",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
+                "guzzlehttp/guzzle": "^7.4.5",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
-                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan": "^1.9",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.1",
-                "phpunit/phpunit": "^9.5.16",
-                "predis/predis": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpunit/phpunit": "^9.5.26",
+                "predis/predis": "^1.1 || ^2",
                 "ruflin/elastica": "^7",
                 "symfony/mailer": "^5.4 || ^6",
                 "symfony/mime": "^5.4 || ^6"
@@ -808,7 +532,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.2.0"
+                "source": "https://github.com/Seldaek/monolog/tree/3.3.1"
             },
             "funding": [
                 {
@@ -820,20 +544,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T12:00:55+00:00"
+            "time": "2023-02-06T13:46:10+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.63.0",
+            "version": "2.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347"
+                "reference": "496712849902241f04902033b0441b269effe001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
-                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
+                "reference": "496712849902241f04902033b0441b269effe001",
                 "shasum": ""
             },
             "require": {
@@ -844,7 +568,7 @@
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
             },
             "require-dev": {
-                "doctrine/dbal": "^2.0 || ^3.0",
+                "doctrine/dbal": "^2.0 || ^3.1.4",
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
@@ -922,75 +646,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-30T18:34:28+00:00"
-        },
-        {
-            "name": "paragonie/random_compat",
-            "version": "v9.99.100",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
-                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">= 7"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*|5.*",
-                "vimeo/psalm": "^1"
-            },
-            "suggest": {
-                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Paragon Initiative Enterprises",
-                    "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com"
-                }
-            ],
-            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
-            "keywords": [
-                "csprng",
-                "polyfill",
-                "pseudorandom",
-                "random"
-            ],
-            "support": {
-                "email": "info@paragonie.com",
-                "issues": "https://github.com/paragonie/random_compat/issues",
-                "source": "https://github.com/paragonie/random_compat"
-            },
-            "time": "2020-10-15T08:29:30+00:00"
+            "time": "2023-01-29T18:53:47+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                "reference": "e616d01114759c4c489f93b099585439f795fe35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
+                "reference": "e616d01114759c4c489f93b099585439f795fe35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -1010,7 +684,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for PSR-7 HTTP message factories",
@@ -1025,31 +699,31 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
+                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
             },
-            "time": "2019-04-30T12:38:16+00:00"
+            "time": "2023-04-10T20:10:41+00:00"
         },
         {
             "name": "psr/http-message",
-            "version": "1.0.1",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1078,9 +752,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
+                "source": "https://github.com/php-fig/http-message/tree/1.1"
             },
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2023-04-04T09:50:52+00:00"
         },
         {
             "name": "psr/log",
@@ -1134,25 +808,25 @@
         },
         {
             "name": "psr/simple-cache",
-            "version": "1.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
-                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -1167,7 +841,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for simple caching",
@@ -1179,9 +853,9 @@
                 "simple-cache"
             ],
             "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/master"
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
-            "time": "2017-10-23T01:57:42+00:00"
+            "time": "2021-10-29T13:26:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -1418,16 +1092,16 @@
         },
         {
             "name": "react/cache",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/cache.git",
-                "reference": "4bf736a2cccec7298bdf745db77585966fc2ca7e"
+                "reference": "d47c472b64aa5608225f47965a484b75c7817d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/cache/zipball/4bf736a2cccec7298bdf745db77585966fc2ca7e",
-                "reference": "4bf736a2cccec7298bdf745db77585966fc2ca7e",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/d47c472b64aa5608225f47965a484b75c7817d5b",
+                "reference": "d47c472b64aa5608225f47965a484b75c7817d5b",
                 "shasum": ""
             },
             "require": {
@@ -1435,7 +1109,7 @@
                 "react/promise": "^3.0 || ^2.0 || ^1.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -1478,19 +1152,15 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/cache/issues",
-                "source": "https://github.com/reactphp/cache/tree/v1.1.1"
+                "source": "https://github.com/reactphp/cache/tree/v1.2.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2021-02-02T06:47:52+00:00"
+            "time": "2022-11-30T15:59:55+00:00"
         },
         {
             "name": "react/child-process",
@@ -1573,16 +1243,16 @@
         },
         {
             "name": "react/datagram",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/datagram.git",
-                "reference": "40f2c39f83541367018605a73b57c99186f7145c"
+                "reference": "13c259bb2fd04f238eeb85f3783167eedec46e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/datagram/zipball/40f2c39f83541367018605a73b57c99186f7145c",
-                "reference": "40f2c39f83541367018605a73b57c99186f7145c",
+                "url": "https://api.github.com/repos/reactphp/datagram/zipball/13c259bb2fd04f238eeb85f3783167eedec46e2c",
+                "reference": "13c259bb2fd04f238eeb85f3783167eedec46e2c",
                 "shasum": ""
             },
             "require": {
@@ -1590,16 +1260,16 @@
                 "php": ">=5.3",
                 "react/dns": "^1.7",
                 "react/event-loop": "^1.2",
-                "react/promise": "~2.1|~1.2"
+                "react/promise": "^3 || ^2.1 || ^1.2"
             },
             "require-dev": {
-                "clue/block-react": "~1.0",
-                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.35",
+                "react/async": "^4 || ^3 || ^2"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "React\\Datagram\\": "src"
+                    "React\\Datagram\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1642,19 +1312,15 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/datagram/issues",
-                "source": "https://github.com/reactphp/datagram/tree/v1.8.0"
+                "source": "https://github.com/reactphp/datagram/tree/v1.9.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/clue",
-                    "type": "github"
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2021-07-11T13:06:40+00:00"
+            "time": "2022-12-05T13:45:40+00:00"
         },
         {
             "name": "react/dns",
@@ -1813,67 +1479,6 @@
                 }
             ],
             "time": "2022-03-17T11:10:22+00:00"
-        },
-        {
-            "name": "react/filesystem",
-            "version": "v0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/filesystem.git",
-                "reference": "766cdef9ba806367114f0c5ba36ea2a6eec8ccd2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/filesystem/zipball/766cdef9ba806367114f0c5ba36ea2a6eec8ccd2",
-                "reference": "766cdef9ba806367114f0c5ba36ea2a6eec8ccd2",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "^3.0 || ^2.0",
-                "php": ">=5.4.0",
-                "react/event-loop": "^1.0 || ^0.5 || ^0.4",
-                "react/promise": "~2.2",
-                "react/promise-stream": "^1.1",
-                "react/stream": "^1.0 || ^0.7 || ^0.6 || ^0.5 || ^0.4",
-                "wyrihaximus/react-child-process-pool": "^1.3"
-            },
-            "require-dev": {
-                "clue/block-react": "^1.1",
-                "phpunit/phpunit": "^6.0 || ^5.0 || ^4.8"
-            },
-            "suggest": {
-                "ext-eio": "^1.2"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "React\\Filesystem\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "Asynchronous filesystem abstraction.",
-            "keywords": [
-                "asynchronous",
-                "eio",
-                "filesystem"
-            ],
-            "support": {
-                "issues": "https://github.com/reactphp/filesystem/issues",
-                "source": "https://github.com/reactphp/filesystem/tree/master"
-            },
-            "time": "2018-10-22T12:10:29+00:00"
         },
         {
             "name": "react/http",
@@ -2442,16 +2047,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918"
+                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
-                "reference": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
+                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
                 "shasum": ""
             },
             "require": {
@@ -2460,7 +2065,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.1-dev"
+                    "dev-main": "3.3-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2489,7 +2094,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.1.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -2505,20 +2110,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T11:15:52+00:00"
+            "time": "2023-03-01T10:25:55+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v6.1.0",
+            "version": "v6.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "a3016f5442e28386ded73c43a32a5b68586dd1c4"
+                "reference": "aa0e85b53bbb2b4951960efd61d295907eacd629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/a3016f5442e28386ded73c43a32a5b68586dd1c4",
-                "reference": "a3016f5442e28386ded73c43a32a5b68586dd1c4",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/aa0e85b53bbb2b4951960efd61d295907eacd629",
+                "reference": "aa0e85b53bbb2b4951960efd61d295907eacd629",
                 "shasum": ""
             },
             "require": {
@@ -2556,7 +2161,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v6.1.0"
+                "source": "https://github.com/symfony/options-resolver/tree/v6.2.7"
             },
             "funding": [
                 {
@@ -2572,7 +2177,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T11:15:52+00:00"
+            "time": "2023-02-14T08:44:56+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2742,16 +2347,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.1.6",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "e6cd330e5a072518f88d65148f3f165541807494"
+                "reference": "817535dbb1721df8b3a8f2489dc7e50bcd6209b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/e6cd330e5a072518f88d65148f3f165541807494",
-                "reference": "e6cd330e5a072518f88d65148f3f165541807494",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/817535dbb1721df8b3a8f2489dc7e50bcd6209b5",
+                "reference": "817535dbb1721df8b3a8f2489dc7e50bcd6209b5",
                 "shasum": ""
             },
             "require": {
@@ -2771,6 +2376,7 @@
                 "symfony/translation-implementation": "2.3|3.0"
             },
             "require-dev": {
+                "nikic/php-parser": "^4.13",
                 "psr/log": "^1|^2|^3",
                 "symfony/config": "^5.4|^6.0",
                 "symfony/console": "^5.4|^6.0",
@@ -2785,6 +2391,7 @@
                 "symfony/yaml": "^5.4|^6.0"
             },
             "suggest": {
+                "nikic/php-parser": "To use PhpAstExtractor",
                 "psr/log-implementation": "To use logging capability in translator",
                 "symfony/config": "",
                 "symfony/yaml": ""
@@ -2818,7 +2425,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.1.6"
+                "source": "https://github.com/symfony/translation/tree/v6.2.8"
             },
             "funding": [
                 {
@@ -2834,20 +2441,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-07T08:04:03+00:00"
+            "time": "2023-03-31T09:14:44+00:00"
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "606be0f48e05116baef052f7f3abdb345c8e02cc"
+                "reference": "dfec258b9dd17a6b24420d464c43bffe347441c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/606be0f48e05116baef052f7f3abdb345c8e02cc",
-                "reference": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/dfec258b9dd17a6b24420d464c43bffe347441c8",
+                "reference": "dfec258b9dd17a6b24420d464c43bffe347441c8",
                 "shasum": ""
             },
             "require": {
@@ -2859,7 +2466,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.1-dev"
+                    "dev-main": "3.3-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2899,7 +2506,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v3.1.1"
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -2915,31 +2522,31 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-27T17:24:16+00:00"
+            "time": "2023-03-01T10:32:47+00:00"
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "dev-cacheInterface",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "3ca3cf0ac423d2156333502b9fbb650d4c4a7a8b"
+                "reference": "8456ea0da9420b89de20842e5adecfd044777405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/3ca3cf0ac423d2156333502b9fbb650d4c4a7a8b",
-                "reference": "3ca3cf0ac423d2156333502b9fbb650d4c4a7a8b",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/8456ea0da9420b89de20842e5adecfd044777405",
+                "reference": "8456ea0da9420b89de20842e5adecfd044777405",
                 "shasum": ""
             },
             "require": {
-                "discord-php/http": "^10.1.3",
+                "discord-php/http": "^10.1.7",
                 "discord/interactions": "^2.2",
                 "ext-json": "*",
                 "ext-zlib": "*",
                 "monolog/monolog": "^2.1.1 || ^3.0",
                 "nesbot/carbon": "^2.38",
-                "php": "^7.4|^8.0",
-                "psr/simple-cache": "^1.0",
+                "php": "^8.0",
+                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
                 "ratchet/pawl": "^0.4.1",
                 "react/async": "^4.0 || ^3.0",
                 "react/cache": "^0.5 || ^0.6 || ^1.0",
@@ -2953,19 +2560,18 @@
                 "davidcole1340/reactsh": "dev-master",
                 "friendsofphp/php-cs-fixer": "^3",
                 "phpunit/phpunit": "^9.4.4",
-                "seregazhuk/react-cache-memcached": "^1.0",
                 "symfony/cache": "^5.4",
                 "symfony/var-dumper": "*",
                 "wyrihaximus/react-cache-redis": "^3.0 || ^4.0"
             },
             "suggest": {
-                "clue/zlib-react": "For gateway message transport compression with zlib-stream.",
+                "ext-ev": "For a faster, and more performant loop.",
                 "ext-event": "For a faster, and more performant loop.",
-                "ext-gmp": "For Permissions and 64 bit calculations on x86 (32 bit) PHP.",
-                "ext-libev": "For a faster, and more performant loop.",
+                "ext-gmp": "For 64 bit calculations on x86 (32 bit) PHP.",
                 "ext-mbstring": "For accurate calculations of string length when handling non-english characters.",
                 "ext-uv": "For a faster, and more performant loop. Preferred."
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -2987,46 +2593,56 @@
             ],
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
+                "chat": "https://discord.gg/dphp",
+                "docs": "https://discord-php.github.io/DiscordPHP/",
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/cacheInterface"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/master",
+                "wiki": "https://github.com/discord-php/DiscordPHP/wiki"
             },
-            "time": "2022-09-08T15:07:12+00:00"
+            "time": "2023-04-25T16:41:36+00:00"
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v1.3.3",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc"
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
-                "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": "^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan": "^1.5",
+                "phpunit/phpunit": "^9.5",
                 "squizlabs/php_codesniffer": "^3.2",
-                "thecodingmachine/phpstan-strict-rules": "^0.12"
+                "thecodingmachine/phpstan-strict-rules": "^1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.1-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
                 "files": [
                     "deprecated/apc.php",
+                    "deprecated/array.php",
+                    "deprecated/datetime.php",
                     "deprecated/libevent.php",
+                    "deprecated/misc.php",
+                    "deprecated/password.php",
                     "deprecated/mssql.php",
                     "deprecated/stats.php",
+                    "deprecated/strings.php",
                     "lib/special_cases.php",
+                    "deprecated/mysqli.php",
                     "generated/apache.php",
                     "generated/apcu.php",
                     "generated/array.php",
@@ -3047,6 +2663,7 @@
                     "generated/fpm.php",
                     "generated/ftp.php",
                     "generated/funchand.php",
+                    "generated/gettext.php",
                     "generated/gmp.php",
                     "generated/gnupg.php",
                     "generated/hash.php",
@@ -3056,7 +2673,6 @@
                     "generated/image.php",
                     "generated/imap.php",
                     "generated/info.php",
-                    "generated/ingres-ii.php",
                     "generated/inotify.php",
                     "generated/json.php",
                     "generated/ldap.php",
@@ -3065,20 +2681,14 @@
                     "generated/mailparse.php",
                     "generated/mbstring.php",
                     "generated/misc.php",
-                    "generated/msql.php",
                     "generated/mysql.php",
-                    "generated/mysqli.php",
-                    "generated/mysqlndMs.php",
-                    "generated/mysqlndQc.php",
                     "generated/network.php",
                     "generated/oci8.php",
                     "generated/opcache.php",
                     "generated/openssl.php",
                     "generated/outcontrol.php",
-                    "generated/password.php",
                     "generated/pcntl.php",
                     "generated/pcre.php",
-                    "generated/pdf.php",
                     "generated/pgsql.php",
                     "generated/posix.php",
                     "generated/ps.php",
@@ -3089,7 +2699,6 @@
                     "generated/sem.php",
                     "generated/session.php",
                     "generated/shmop.php",
-                    "generated/simplexml.php",
                     "generated/sockets.php",
                     "generated/sodium.php",
                     "generated/solr.php",
@@ -3112,13 +2721,13 @@
                     "generated/zip.php",
                     "generated/zlib.php"
                 ],
-                "psr-4": {
-                    "Safe\\": [
-                        "lib/",
-                        "deprecated/",
-                        "generated/"
-                    ]
-                }
+                "classmap": [
+                    "lib/DateTime.php",
+                    "lib/DateTimeImmutable.php",
+                    "lib/Exceptions/",
+                    "deprecated/Exceptions/",
+                    "generated/Exceptions/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3127,61 +2736,9 @@
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
             "support": {
                 "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v1.3.3"
+                "source": "https://github.com/thecodingmachine/safe/tree/v2.5.0"
             },
-            "time": "2020-10-28T17:51:34+00:00"
-        },
-        {
-            "name": "tivie/php-os-detector",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tivie/php-os-detector.git",
-                "reference": "9461dcd85c00e03842264f2fc8ccdc8d46867321"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tivie/php-os-detector/zipball/9461dcd85c00e03842264f2fc8ccdc8d46867321",
-                "reference": "9461dcd85c00e03842264f2fc8ccdc8d46867321",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Tivie\\OS\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "APACHE 2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Estevão Soares dos Santos",
-                    "email": "estevao@soares-dos-santos.com"
-                }
-            ],
-            "description": "A small utility library that detects the OS the server is running on",
-            "homepage": "http://tivie.github.com/php-os-detector/",
-            "keywords": [
-                "detection",
-                "detector",
-                "identification",
-                "operating system",
-                "os",
-                "os detection"
-            ],
-            "support": {
-                "issues": "https://github.com/tivie/php-os-detector/issues",
-                "source": "https://github.com/tivie/php-os-detector/tree/master"
-            },
-            "time": "2017-10-21T03:33:59+00:00"
+            "time": "2023-04-05T11:54:14+00:00"
         },
         {
             "name": "trafficcophp/bytebuffer",
@@ -3232,24 +2789,23 @@
             "time": "2016-01-13T22:50:58+00:00"
         },
         {
-            "name": "vzgcoders/palace",
-            "version": "dev-master",
+            "name": "vzgcoders/tutelar-revived",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/VZGCoders/Palace-DiscordPHP.git",
-                "reference": "90400a510a4546ec1ccb4a968b1ca2d2fe407041"
+                "url": "https://github.com/VZGCoders/Palace-Revived.git",
+                "reference": "bc291df1aa654e686032ffa30516dbf2418a8389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/Palace-DiscordPHP/zipball/90400a510a4546ec1ccb4a968b1ca2d2fe407041",
-                "reference": "90400a510a4546ec1ccb4a968b1ca2d2fe407041",
+                "url": "https://api.github.com/repos/VZGCoders/Palace-Revived/zipball/bc291df1aa654e686032ffa30516dbf2418a8389",
+                "reference": "bc291df1aa654e686032ffa30516dbf2418a8389",
                 "shasum": ""
             },
             "require": {
                 "clue/redis-react": "^2.6",
-                "php": "^8.0.0",
-                "react/filesystem": "^0.1.1",
-                "team-reflex/discord-php": "dev-cacheInterface",
+                "php": "^8.1.0",
+                "team-reflex/discord-php": "dev-master",
                 "vzgcoders/twitchphp": "dev-main",
                 "wyrihaximus/react-cache-redis": "^4.2.0"
             },
@@ -3262,21 +2818,28 @@
             "default-branch": true,
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
                     "name": "Valithor Obsidion",
                     "email": "valzargaming@gmail.com"
                 }
             ],
-            "description": "ValZarGaming's offical Discord bot for moderation and fun built in ReactPHP.",
+            "description": "ValZarGaming's offical Discord bot built in ReactPHP.",
             "support": {
-                "issues": "https://github.com/VZGCoders/Palace-DiscordPHP/issues",
-                "source": "https://github.com/VZGCoders/Palace-DiscordPHP/tree/master"
+                "issues": "https://github.com/VZGCoders/Palace-Revived/issues",
+                "source": "https://github.com/VZGCoders/Palace-Revived/tree/main"
             },
-            "time": "2022-09-25T20:00:05+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/valzargaming",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/valzargaming",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2023-03-23T21:28:45+00:00"
         },
         {
             "name": "vzgcoders/twitchphp",
@@ -3284,12 +2847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/VZGCoders/TwitchPHP.git",
-                "reference": "43a72ec3a47bfbc005bb3dc526f25a06cadd9d95"
+                "reference": "17dc87fbca317eaf9eaff7066e8dcf8c9ce4d16c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/43a72ec3a47bfbc005bb3dc526f25a06cadd9d95",
-                "reference": "43a72ec3a47bfbc005bb3dc526f25a06cadd9d95",
+                "url": "https://api.github.com/repos/VZGCoders/TwitchPHP/zipball/17dc87fbca317eaf9eaff7066e8dcf8c9ce4d16c",
+                "reference": "17dc87fbca317eaf9eaff7066e8dcf8c9ce4d16c",
                 "shasum": ""
             },
             "require": {
@@ -3325,338 +2888,30 @@
                 "issues": "https://github.com/VZGCoders/TwitchPHP/issues",
                 "source": "https://github.com/VZGCoders/TwitchPHP/tree/main"
             },
-            "time": "2022-10-31T08:54:24+00:00"
-        },
-        {
-            "name": "wyrihaximus/composer-update-bin-autoload-path",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-composer-update-bin-autoload-path.git",
-                "reference": "33413e3af4f4d7ab4de3653a706aed57f51e84af"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-composer-update-bin-autoload-path/zipball/33413e3af4f4d7ab4de3653a706aed57f51e84af",
-                "reference": "33413e3af4f4d7ab4de3653a706aed57f51e84af",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^2",
-                "php": "^8 || ^7.4"
-            },
-            "require-dev": {
-                "wyrihaximus/test-utilities": "^3"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "WyriHaximus\\Composer\\BinAutoloadPathUpdater",
-                "unused": [
-                    "php"
-                ]
-            },
-            "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "🏰 Composer plugin that fills a bin file with the absolute composer autoload path",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-composer-update-bin-autoload-path/issues",
-                "source": "https://github.com/WyriHaximus/php-composer-update-bin-autoload-path/tree/1.1.1"
-            },
             "funding": [
                 {
-                    "url": "https://github.com/WyriHaximus",
+                    "url": "https://github.com/valzargaming",
                     "type": "github"
-                }
-            ],
-            "time": "2021-03-14T20:55:38+00:00"
-        },
-        {
-            "name": "wyrihaximus/constants",
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-constants.git",
-                "reference": "32ceffdd881593c7fa24d8fcbf9deb58687484cb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-constants/zipball/32ceffdd881593c7fa24d8fcbf9deb58687484cb",
-                "reference": "32ceffdd881593c7fa24d8fcbf9deb58687484cb",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8 || ^7 || ^5.3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/Boolean/constants_include.php",
-                    "src/ComposerAutoloader/constants_include.php",
-                    "src/HTTPStatusCodes/constants_include.php",
-                    "src/Numeric/constants_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
+                },
                 {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com",
-                    "homepage": "https://www.wyrihaximus.net/"
+                    "url": "https://www.patreon.com/valzargaming",
+                    "type": "patreon"
                 }
             ],
-            "description": "Collection of constants for PHP",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-constants/issues",
-                "source": "https://github.com/WyriHaximus/php-constants/tree/1.6.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-28T12:04:43+00:00"
-        },
-        {
-            "name": "wyrihaximus/cpu-core-detector",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-cpu-core-detector.git",
-                "reference": "287aa2730d8d3a8f581004bb7b95fab1b4e5708f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-cpu-core-detector/zipball/287aa2730d8d3a8f581004bb7b95fab1b4e5708f",
-                "reference": "287aa2730d8d3a8f581004bb7b95fab1b4e5708f",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8",
-                "react/child-process": "^0.5 || ^0.4 || ^0.6",
-                "react/event-loop": "^1.1",
-                "react/promise": "^2.8",
-                "tivie/php-os-detector": "^1.0",
-                "wyrihaximus/react-child-process-promise": "^2 || ^3",
-                "wyrihaximus/ticking-promise": "^1.5 || ^2"
-            },
-            "require-dev": {
-                "wyrihaximus/async-test-utilities": "^3.3",
-                "wyrihaximus/test-utilities": "^3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\CpuCoreDetector\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "Detect how many CPU cores are available",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-cpu-core-detector/issues",
-                "source": "https://github.com/WyriHaximus/php-cpu-core-detector/tree/2.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-03-08T07:46:18+00:00"
-        },
-        {
-            "name": "wyrihaximus/file-descriptors",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-file-descriptors.git",
-                "reference": "7e2a8330c6dfe535a597e8a317b31dddf3b49398"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-file-descriptors/zipball/7e2a8330c6dfe535a597e8a317b31dddf3b49398",
-                "reference": "7e2a8330c6dfe535a597e8a317b31dddf3b49398",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8 || ^7.4",
-                "tivie/php-os-detector": "^1.1"
-            },
-            "require-dev": {
-                "wyrihaximus/iterator-or-array-to-array": "^1.1",
-                "wyrihaximus/test-utilities": "^3.3.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\FileDescriptors\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "List open file descriptors for the current process cross platform",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-file-descriptors/issues",
-                "source": "https://github.com/WyriHaximus/php-file-descriptors/tree/1.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-25T23:03:56+00:00"
-        },
-        {
-            "name": "wyrihaximus/json-throwable",
-            "version": "4.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-json-throwable.git",
-                "reference": "d01d59a101d4d2639ec3be770646a7e6b168fafb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-json-throwable/zipball/d01d59a101d4d2639ec3be770646a7e6b168fafb",
-                "reference": "d01d59a101d4d2639ec3be770646a7e6b168fafb",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/instantiator": "^1.0.5",
-                "php": "^8 || ^7.4",
-                "thecodingmachine/safe": "^1.1",
-                "wyrihaximus/json-utilities": "^1.2"
-            },
-            "require-dev": {
-                "wyrihaximus/test-utilities": "^3.3.1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "📠 JSON encode and decode throwables and exceptions",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-json-throwable/issues",
-                "source": "https://github.com/WyriHaximus/php-json-throwable/tree/4.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-25T13:14:10+00:00"
-        },
-        {
-            "name": "wyrihaximus/json-utilities",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/php-json-utilities.git",
-                "reference": "dce46df18c70ab7e206fe7bda4f4c59506f17be6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-json-utilities/zipball/dce46df18c70ab7e206fe7bda4f4c59506f17be6",
-                "reference": "dce46df18c70ab7e206fe7bda4f4c59506f17be6",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8 || ^7.4",
-                "thecodingmachine/safe": "^1.1"
-            },
-            "require-dev": {
-                "wyrihaximus/test-utilities": "^3.3.1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "Utilities for php-json-* packages",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/php-json-utilities/issues",
-                "source": "https://github.com/WyriHaximus/php-json-utilities/tree/1.3.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-25T11:27:40+00:00"
+            "time": "2023-03-25T05:04:12+00:00"
         },
         {
             "name": "wyrihaximus/react-cache-redis",
-            "version": "4.2.0",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-cache-redis.git",
-                "reference": "a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70"
+                "reference": "aaa4875b7b50607595e86307b0ea4a74bb6b86b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-cache-redis/zipball/a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70",
-                "reference": "a7b43fbd395fe1a2c7bc7aead453ba80e19c5d70",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-cache-redis/zipball/aaa4875b7b50607595e86307b0ea4a74bb6b86b9",
+                "reference": "aaa4875b7b50607595e86307b0ea4a74bb6b86b9",
                 "shasum": ""
             },
             "require": {
@@ -3665,10 +2920,10 @@
                 "php": "^8 || ^7.4",
                 "react/cache": "^1.1.1",
                 "react/promise": "^2.8",
-                "thecodingmachine/safe": "^1.3"
+                "thecodingmachine/safe": "^2 || ^1.3"
             },
             "require-dev": {
-                "wyrihaximus/async-test-utilities": "^3.4.20"
+                "wyrihaximus/async-test-utilities": "^4.0"
             },
             "type": "library",
             "autoload": {
@@ -3689,7 +2944,7 @@
             "description": "Redis cache for react/cache",
             "support": {
                 "issues": "https://github.com/WyriHaximus/reactphp-cache-redis/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-cache-redis/tree/4.2.0"
+                "source": "https://github.com/WyriHaximus/reactphp-cache-redis/tree/4.3.0"
             },
             "funding": [
                 {
@@ -3697,272 +2952,14 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T20:41:50+00:00"
-        },
-        {
-            "name": "wyrihaximus/react-child-process-messenger",
-            "version": "4.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/reactphp-child-process-messenger.git",
-                "reference": "4d1bab02ee4ae62e28a7a8a43428ff6ee9532641"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-messenger/zipball/4d1bab02ee4ae62e28a7a8a43428ff6ee9532641",
-                "reference": "4d1bab02ee4ae62e28a7a8a43428ff6ee9532641",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/utility": "^4.2.4",
-                "doctrine/inflector": "^2.0.3",
-                "evenement/evenement": "^3.0.1",
-                "ext-hash": "^8 || ^7.4",
-                "ext-json": "^8 || ^7.4",
-                "paragonie/random_compat": "^9.0 || ^2.0",
-                "php": "^8 || ^7.4",
-                "react/child-process": "^0.6.2",
-                "react/event-loop": "^1.1.1",
-                "react/promise": "^2.8",
-                "react/promise-stream": "^1.2",
-                "react/promise-timer": "^1.6",
-                "react/socket": "^1.6",
-                "thecodingmachine/safe": "^1.3.3",
-                "wyrihaximus/composer-update-bin-autoload-path": "^1.1.1",
-                "wyrihaximus/constants": "^1.6",
-                "wyrihaximus/file-descriptors": "^1.1",
-                "wyrihaximus/json-throwable": "^4.1",
-                "wyrihaximus/ticking-promise": "^2 || ^3"
-            },
-            "require-dev": {
-                "wyrihaximus/async-test-utilities": "^3.4.18"
-            },
-            "type": "library",
-            "extra": {
-                "unused": [
-                    "php",
-                    "react/promise-stream"
-                ],
-                "wyrihaximus": {
-                    "bin-autoload-path-update": [
-                        "bin/child-process"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "WyriHaximus\\React\\ChildProcess\\Messenger\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com",
-                    "homepage": "http://wyrihaximus.net/"
-                }
-            ],
-            "description": "Messenger decorator for react/child-process",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/reactphp-child-process-messenger/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-messenger/tree/4.0.3"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-03-12T12:34:18+00:00"
-        },
-        {
-            "name": "wyrihaximus/react-child-process-pool",
-            "version": "1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/reactphp-child-process-pool.git",
-                "reference": "708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-pool/zipball/708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9",
-                "reference": "708dc34ba2b823b9c8e2935b9f1e807b4d8c11f9",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "^3.0 || ^2.0",
-                "php": "^8.0 || ^7.0 || ^5.4",
-                "react/event-loop": "^1.1",
-                "wyrihaximus/cpu-core-detector": "^2 || ^1.0.2",
-                "wyrihaximus/file-descriptors": "^2 || ^1.0 || ^0.1",
-                "wyrihaximus/react-child-process-messenger": "^4 || ^3 || ^2.10.1",
-                "wyrihaximus/ticking-promise": "^2 || ^1.5"
-            },
-            "require-dev": {
-                "clue/block-react": "^1.3",
-                "phake/phake": "^2.2.1",
-                "phpunit/phpunit": "^4.8.35||^5.0||^9.5",
-                "squizlabs/php_codesniffer": "^3.3.2",
-                "vectorface/dunit": "~2.0"
-            },
-            "suggest": {
-                "wyrihaximus/react-child-process-pool-redis-queue": "Redis RPC queue"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\React\\ChildProcess\\Pool\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com"
-                }
-            ],
-            "description": "Pool wyrihaximus/react-child-process-messenger processes",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/reactphp-child-process-pool/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-pool/tree/1.8.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-07-04T21:49:01+00:00"
-        },
-        {
-            "name": "wyrihaximus/react-child-process-promise",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/reactphp-child-process-promise.git",
-                "reference": "4eb763563dc382dd03b46f9fab0fd1993af68316"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-child-process-promise/zipball/4eb763563dc382dd03b46f9fab0fd1993af68316",
-                "reference": "4eb763563dc382dd03b46f9fab0fd1993af68316",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0|^8.0",
-                "react/child-process": "^0.6 || ^0.5 || ^0.4",
-                "react/promise": "^2.7",
-                "wyrihaximus/ticking-promise": "^1.5.2|^2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0||^9.0",
-                "sebastian/comparator": "^1.2.4||^4.0",
-                "squizlabs/php_codesniffer": "^3.3.2",
-                "vectorface/dunit": "^2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\React\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com",
-                    "homepage": "http://wyrihaximus.net/"
-                }
-            ],
-            "description": "Wrapping ticks into a promise",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/reactphp-child-process-promise/issues",
-                "source": "https://github.com/WyriHaximus/reactphp-child-process-promise/tree/3.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-12-04T15:47:08+00:00"
-        },
-        {
-            "name": "wyrihaximus/ticking-promise",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WyriHaximus/TickingPromise.git",
-                "reference": "d3903d4bebe8e3c5b11464c0bb81802cdeeb3751"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/TickingPromise/zipball/d3903d4bebe8e3c5b11464c0bb81802cdeeb3751",
-                "reference": "d3903d4bebe8e3c5b11464c0bb81802cdeeb3751",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8 || ^7.4",
-                "react/event-loop": "^1.0",
-                "react/promise": "^2.8"
-            },
-            "require-dev": {
-                "wyrihaximus/async-test-utilities": "^3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "WyriHaximus\\React\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cees-Jan Kiewiet",
-                    "email": "ceesjank@gmail.com",
-                    "homepage": "http://wyrihaximus.net/"
-                }
-            ],
-            "description": "Wrapping ticks into a promise",
-            "support": {
-                "issues": "https://github.com/WyriHaximus/TickingPromise/issues",
-                "source": "https://github.com/WyriHaximus/TickingPromise/tree/2.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/WyriHaximus",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-25T12:43:21+00:00"
+            "time": "2023-01-13T23:06:09+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "vzgcoders/palace": 20
+        "vzgcoders/tutelar-revived": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
